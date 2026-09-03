@@ -1,0 +1,77 @@
+{
+  "size": 32,
+  "frames": {
+    "astral_scepter": {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "dragonbone_bow": {
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "frostbite_katana": {
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "inferno_warhammer": {
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "iron_dagger": {
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "iron_sword": {
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "oak_staff": {
+      "x": 192,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "short_bow": {
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "solaris_blade": {
+      "x": 256,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "stormcaller_spear": {
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "twin_fangs": {
+      "x": 320,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    "voidreaver_greatsword": {
+      "x": 352,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    }
+  }
+}

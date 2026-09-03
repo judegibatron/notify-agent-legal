@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top Shelf Armory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #17141d;
+    --surface: #211c2a;
+    --surface-2: #2a2436;
+    --checker: #2f2940;
+    --line: #332c42;
+    --ink: #efe9f6;
+    --muted: #a297b6;
+    --legendary: #f2b632;
+    --epic: #a24dff;
+    --common: #9aa0b0;
+    --display: "Pixelify Sans", "Trebuchet MS", sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  img { image-rendering: pixelated; image-rendering: crisp-edges; display: block; }
+  .page { max-width: 1180px; margin: 0 auto; padding: 40px 24px 72px; display: flex; flex-direction: column; gap: 48px; }
+
+  .masthead { display: grid; gap: 12px; max-width: 64ch; }
+  .eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  h1 { font-family: var(--display); font-weight: 700; font-size: clamp(36px, 5vw, 52px); line-height: 1; margin: 0; text-wrap: balance; }
+  .masthead p.lede { margin: 4px 0 0; color: var(--muted); }
+  .masthead p.lede b { color: var(--ink); font-weight: 500; }
+
+  .tier { display: grid; gap: 20px; }
+  .tier-head { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+  .tier-head h2 { font-family: var(--display); font-weight: 500; font-size: 26px; margin: 0; letter-spacing: 0.01em; }
+  .tier-head p { margin: 0; color: var(--muted); max-width: 72ch; }
+  .tier-legendary .tier-head h2 { color: var(--legendary); }
+  .tier-epic .tier-head h2 { color: var(--epic); }
+  .tier-common .tier-head h2 { color: var(--common); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+  .grid.compact { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+  .card { background: var(--surface); border: 1px solid var(--line); display: grid; grid-template-rows: auto 1fr; }
+  .card.tier-legendary { border-color: color-mix(in srgb, var(--legendary) 45%, var(--line)); }
+  .card.tier-epic { border-color: color-mix(in srgb, var(--epic) 45%, var(--line)); }
+  .tile {
+    display: grid; place-items: center; padding: 18px;
+    background-color: var(--surface-2);
+    background-image: linear-gradient(45deg, var(--checker) 25%, transparent 25%, transparent 75%, var(--checker) 75%),
+                      linear-gradient(45deg, var(--checker) 25%, transparent 25%, transparent 75%, var(--checker) 75%);
+    background-size: 16px 16px; background-position: 0 0, 8px 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .body { padding: 16px 18px 18px; display: grid; gap: 10px; align-content: start; }
+  .body header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  h3 { font-family: var(--display); font-weight: 500; font-size: 22px; margin: 0; line-height: 1.1; }
+  .chip { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 8px; border: 1px solid; border-radius: 999px; white-space: nowrap; }
+  .tier-legendary .chip { color: var(--legendary); border-color: var(--legendary); }
+  .tier-epic .chip { color: var(--epic); border-color: var(--epic); }
+  .tier-common .chip { color: var(--common); border-color: var(--common); }
+
+  .cost { margin: 0; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .cost .num { font-size: 22px; font-weight: 500; }
+  .tier-legendary .cost .num { color: var(--legendary); }
+  .tier-epic .cost .num { color: var(--epic); }
+  .cost .dps { font-size: 16px; }
+  .cost .dps small { font-size: 11px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+  .versus { margin: 0; color: var(--muted); font-size: 13.5px; }
+  .versus b { color: var(--ink); font-family: var(--mono); font-weight: 500; }
+
+  .stats { display: grid; gap: 5px; font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+  .stat { display: grid; grid-template-columns: 58px 1fr 52px; align-items: center; gap: 10px; }
+  .stat .k { color: var(--muted); letter-spacing: 0.04em; }
+  .stat .v { text-align: right; }
+  .bar { height: 8px; background: var(--ground); border: 1px solid var(--line); display: block; }
+  .bar i { display: block; height: 100%; background: var(--common); }
+  .tier-legendary .bar i { background: var(--legendary); }
+  .tier-epic .bar i { background: var(--epic); }
+
+  .passive { margin: 0; font-size: 13.5px; }
+  .passive.none { color: var(--muted); }
+  .flavor { margin: 0; color: var(--muted); font-style: italic; font-size: 13px; }
+  .card.compact .flavor { display: none; }
+
+  .scale { display: grid; gap: 14px; }
+  .scale-row { display: grid; grid-template-columns: 40px 1fr; align-items: center; gap: 12px; }
+  .scale-row .k { font-family: var(--mono); color: var(--muted); font-size: 12px; }
+  .strip {
+    display: flex; gap: 12px; align-items: flex-end; overflow-x: auto; padding: 12px;
+    background-color: var(--surface-2); border: 1px solid var(--line);
+  }
+  .note { color: var(--muted); font-size: 13.5px; max-width: 72ch; margin: 0; }
+  .note code { font-family: var(--mono); font-size: 12.5px; color: var(--ink); }
+  a:focus-visible, img:focus-visible { outline: 2px solid var(--legendary); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <p class="eyebrow">Weapon set · 32×32 pixel art · 12 sprites</p>
+    <h1>Top Shelf Armory</h1>
+    <p class="lede"><b>8 premium weapons</b> priced 30–60× the starter gear, hitting about 3× as hard, each with a passive that changes how it plays. The <b>4 commons</b> at the bottom are the baseline they were scaled against. Every sprite is shown blown up here and at true game scale at the end.</p>
+  </div>
+<section class="tier tier-legendary">
+  <div class="tier-head">
+    <h2>Legendary</h2>
+    <p>Roughly 50x the price for ~3.4x the effective DPS, plus a passive that changes how the weapon plays.</p>
+  </div>
+  <div class="grid">
+<article class="card tier-legendary">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABEklEQVR42mNgGAV0BrxsYv/pauGR7P//YRaDsJdpwX+6OgJk2bcb//9XxSweGMtP7ngGthzkCGNVf9o5ABbUyJaDxECWg2gQppvvYT6HWQzyuZq0LX0cgBzsA2Y5yGJYnA8qn6Onk+EV7MipnSYpHhSnxORzmvocOQ6x5XOaWY5uKF3zObgsv5wFN5yuCQ5k6JVlVlgtp3mcw3wO8z3dfQ6zHIRBFsIsB1WpdMnnyI4ARQNdLUdPAzCMbjnNHQGyQFHCAMURs4uU4GkCxqaZ5frKDmAHwEICZCEM07SBAbMchJGDG9kBNLUc5Gtky5Hl6GI5LNjp2q6HZTt8ltM8z2+J+Y9S9NLdEQNm+YD12wYDAACz6qAK3ybbrgAAAABJRU5ErkJggg==" width="160" height="160" alt="Voidreaver sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Voidreaver</h3>
+      <span class="chip">Legendary · greatsword</span>
+    </header>
+    <p class="cost"><span class="num">6,000 g</span><span class="dps">37.0 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×60</b> the price of the Iron Sword, <b>×3.0</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:70%"></i></span><span class="v">42</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:25%"></i></span><span class="v">0.8/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:20%"></i></span><span class="v">2.2</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:33%"></i></span><span class="v">10%</span></div></div>
+    <p class="passive"><b>Void Rend.</b> Every hit shreds 15% of the target&#x27;s armor for 4s. Stacks up to 3 times.</p>
+    <p class="flavor">Obsidian split by a seam of nothing. It hums when it is hungry.</p>
+  </div>
+</article>
+<article class="card tier-legendary">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1UlEQVR42u2XIRLCMBBFK9HIVmCZ4pAcikMgOQOOO3AGuAWKQSMwiKU/M39nW7D5qcjO/GmnIu9nd9MkTVNDHJt2YRKQ3Q82BUP2eVh2E4CnGJ4OxjcFPJpI4PfV4a/LVmdgdvDbsXUDqE4xeNGZV3hReJbGq2mXwjm4FD6CDiGH/+xmyrRjYEAgOXyaBZey4SL8ud4lEU5lrT3FMpyXqxFYkoFT37sBwiUHC8IhvMeZS7p/33UOp4H4T8gOhyJQuuQiXHaZIBxLTbaj/TNRDC6/t80pvkbrAFzncD3NAAAAAElFTkSuQmCC" width="160" height="160" alt="Solaris Blade sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Solaris Blade</h3>
+      <span class="chip">Legendary · sword</span>
+    </header>
+    <p class="cost"><span class="num">4,500 g</span><span class="dps">42.7 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×45</b> the price of the Iron Sword, <b>×3.5</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:47%"></i></span><span class="v">28</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:44%"></i></span><span class="v">1.4/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:15%"></i></span><span class="v">1.7</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:40%"></i></span><span class="v">12%</span></div></div>
+    <p class="passive"><b>Sunfire.</b> 20% chance per hit to ignite the target: 8 damage per second for 3s.</p>
+    <p class="flavor">Forged at noon on midsummer. The fuller never stops glowing.</p>
+  </div>
+</article>
+<article class="card tier-legendary">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAy0lEQVR42mNgoDPgl9L7zzBQAGQ5CAyIIx78/j9wlsN8vv3NADgAZjkoBOhiOcgibD7PP/Lq//zHdAwBdMtBfLqFAnKwwyynWxbEFux09zlysMMwevqgqQOQg31AshvdHYAt6AfM8gFJdMjBjpzo6FK5DIpgp2vxOmBxDrIgOncm3oKG5paD8IDFubxOzH8brzw4pmu833/+H+wAEJvuloMshllO11YtzHKQ7wekYkEOdrpbjh7sdLd8ZAa7tlkMGA9Y341u1egoQAMA0QtusE2AWsQAAAAASUVORK5CYII=" width="160" height="160" alt="Frostbite sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Frostbite</h3>
+      <span class="chip">Legendary · katana</span>
+    </header>
+    <p class="cost"><span class="num">5,000 g</span><span class="dps">49.4 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×50</b> the price of the Iron Sword, <b>×4.0</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:33%"></i></span><span class="v">20</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:59%"></i></span><span class="v">1.9/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:15%"></i></span><span class="v">1.6</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:83%"></i></span><span class="v">25%</span></div></div>
+    <p class="passive"><b>Frostbite.</b> Critical hits slow the target by 40% for 2s.</p>
+    <p class="flavor">Quenched in a glacier. The edge is so cold it never dulls.</p>
+  </div>
+</article>
+<article class="card tier-legendary">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR42u2WMQrCQBBFU4qNIFYWiZVFkHRaCVZpbLyHRU7gDbyB9/AKHsALrfnBH8a4WpidHQIufFbWsO/t7BBNEsUxG4+cu2xdVZ0cPicxB4AAu+O8maNI4LQSToGyPOhKANI9OQKwu+/iSHjhTzBnFQlf2QlrBeoqcK0oNu0zwSSwETZGCEJu+fRFAEII15Gg5fdJSDC/R7Js2V+A5ZcS2Jiby7KjChKOBG9G9oGUIJQC6nBEglqB+grU4BTYr97vmRJoPHX4ejFxbEbMsid88G4PBYFzrduYUU7+7blPr251uNo7vy/85/sf/Mn/8OHBz2naxAR+zXNbOGJWdlO4WdnR7WZw/pPhb3l0ATO4lDCDW44HPy94elabDl4AAAAASUVORK5CYII=" width="160" height="160" alt="Inferno Maul sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Inferno Maul</h3>
+      <span class="chip">Legendary · warhammer</span>
+    </header>
+    <p class="cost"><span class="num">5,500 g</span><span class="dps">38.9 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×55</b> the price of the Iron Sword, <b>×3.2</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:100%"></i></span><span class="v">60</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:19%"></i></span><span class="v">0.6/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:16%"></i></span><span class="v">1.8</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:27%"></i></span><span class="v">8%</span></div></div>
+    <p class="passive"><b>Eruption.</b> Each slam leaves a lava pool that deals 6 damage per second for 3s.</p>
+    <p class="flavor">The head was never cast. It was pulled, still burning, from the mountain.</p>
+  </div>
+</article>
+<article class="card tier-legendary">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVR42mNgGAlAiEvlPwiDAIimuYUgi5At/7/jEwqmiyMwLIeBmGv/D2kvoI8jUBwAtBhmOf0dgGZ5rVQO7Rzw/9L3/zDLP5yIAmOQ5SBLYZbTzAEgy8EASMMs3zFBB4xhFtPU9zBHgCzQUg6CWw7CsKxI87iHWS4lZgW2DGY5vqxKM8thYnTL8+iW07WoxWU5TYIa3XJQah9Qn+NKaCMzzkctH03to3E+avloah/awY7cfqO7AwbMcvQOJMNIAwCz0TabGdl//QAAAABJRU5ErkJggg==" width="160" height="160" alt="Astral Scepter sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Astral Scepter</h3>
+      <span class="chip">Legendary · staff</span>
+    </header>
+    <p class="cost"><span class="num">5,200 g</span><span class="dps">32.3 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×35</b> the price of the Oak Staff, <b>×3.9</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:50%"></i></span><span class="v">30</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:31%"></i></span><span class="v">1.0/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:73%"></i></span><span class="v">8</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:33%"></i></span><span class="v">10%</span></div></div>
+    <p class="passive"><b>Arcane Echo.</b> Spells have a 25% chance to cast twice.</p>
+    <p class="flavor">The orb is a captured star. It is not happy about it.</p>
+  </div>
+</article>
+  </div>
+</section>
+<section class="tier tier-epic">
+  <div class="tier-head">
+    <h2>Epic</h2>
+    <p>Roughly 35x the price of the common in its class for ~2.8x the effective DPS, plus a passive with a utility angle (range, pierce, chain, poison).</p>
+  </div>
+  <div class="grid">
+<article class="card tier-epic">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1ElEQVR42mNgoBGofvDgP8NAg/8vff+DMLo4n5TUf7pYjh4iIItBeOWOM/9p6oj/Pzf8R/cxCH/49h9uObaQoUkIwCwG4ZOX7/7Prp32H92BdLUcFvQ0CwGY77BZDnMAXYIfp+X0CH6QRSCLQQkO2XJcOYSqBQ/M8v5ZK8CYLpYjZzd9f///ilZWYMth2Y/ulqNbTHOAbjld6wRYnGOznOaVFcznsPima02HL9hpXkWTY/mA+nz4WE5Oaqeqz4dMah+1fDS1j6b2oWU5eu+FYRTQGQAAMnE+rAyDwooAAAAASUVORK5CYII=" width="160" height="160" alt="Stormcaller sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Stormcaller</h3>
+      <span class="chip">Epic · spear</span>
+    </header>
+    <p class="cost"><span class="num">4,200 g</span><span class="dps">33.5 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×42</b> the price of the Iron Sword, <b>×2.7</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:40%"></i></span><span class="v">24</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:41%"></i></span><span class="v">1.3/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:27%"></i></span><span class="v">3</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:33%"></i></span><span class="v">10%</span></div></div>
+    <p class="passive"><b>Chain Lightning.</b> Every 4th hit arcs to up to 2 nearby enemies for 50% damage.</p>
+    <p class="flavor">Ash shaft, sky-iron head, and a temper to match.</p>
+  </div>
+</article>
+<article class="card tier-epic">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBklEQVR42u2XvQ0CMQyFbwQKKpagZwR6mmsZgRW4VZiBDgZhANiAzsgnPWSZhPziwIlIVqQo9z7biS9J1/3bt7bFfEYp4yEtbcEP+vXqZaJvPASl+5Vul/Now64fLckJWAiuoRJ8POzjMyAFIcT2bllcUES6pYGSl06nDiaFQuBsOMRZjAVkD7GYNGfDAWBBCGuABrMtT5unc0VwiHAqJRwO+KKuBtf7AL3PITm/Glz/eGTkZnBXRfjgvP7N4CaRyw1nAndFnwJHSTaBfzT66cNlWVU7WHIPIvmbNYUj/eZw6UDRZaJG+l3w4tpOSb955K7N1+QtoO995g5E3dkn60Du0+un2wOwyEqYF8uXhQAAAABJRU5ErkJggg==" width="160" height="160" alt="Dragonbone Bow sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Dragonbone Bow</h3>
+      <span class="chip">Epic · bow</span>
+    </header>
+    <p class="cost"><span class="num">4,800 g</span><span class="dps">33.7 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×40</b> the price of the Short Bow, <b>×4.1</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:43%"></i></span><span class="v">26</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:34%"></i></span><span class="v">1.1/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:100%"></i></span><span class="v">11</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:60%"></i></span><span class="v">18%</span></div></div>
+    <p class="passive"><b>Piercing Shot.</b> Arrows pass through up to 2 enemies.</p>
+    <p class="flavor">Strung with sinew from the same dragon. The skull still watches the arrow.</p>
+  </div>
+</article>
+<article class="card tier-epic">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCUlEQVR42mNgGAWjAAfg55H4P2BmgTTs+F/1H0RT4hCYfphZJGvu/W8FxuQ4glL9YAN8bUv/12Yt+39yzzOSDAGpBekB6QWZQXYokuMIqlkOCjpSHYHLcphZFKVikIHEOoAin8OA/36Z/6REBb6gRzaL4lDA5giqxTsyAOVdYhxBE8uJDQm6W45ewg2I5bjinC4OwOVz9DRBM8utdEOx+hw5YYLUUN0RMMtBGFucIzsCpo6qjgAZpqZg9l9ewgCO0R2ALAdSSzUHgAwSE5KHG4puObojYI4F6aHYETDLkQ0jVBfg0kd2sJNrCHrIkWU5pXFJljnIKZ4aCYks86hdoNCtpBwFo4AcAACWwHH0xplOHwAAAABJRU5ErkJggg==" width="160" height="160" alt="Twin Fangs sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Twin Fangs</h3>
+      <span class="chip">Epic · dagger</span>
+    </header>
+    <p class="cost"><span class="num">3,800 g</span><span class="dps">41.6 <small>eff. DPS</small></span></p>
+    <p class="versus"><b>×63</b> the price of the Iron Dagger, <b>×3.3</b> its effective DPS.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:17%"></i></span><span class="v">10</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:100%"></i></span><span class="v">3.2/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:9%"></i></span><span class="v">1</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:100%"></i></span><span class="v">30%</span></div></div>
+    <p class="passive"><b>Venom.</b> Each hit adds a poison stack: 3 damage per second for 4s, up to 5 stacks.</p>
+    <p class="flavor">Two blades, one grudge.</p>
+  </div>
+</article>
+  </div>
+</section>
+<section class="tier tier-common">
+  <div class="tier-head">
+    <h2>Common baseline</h2>
+    <p>Starter gear. Cheap, no passive.</p>
+  </div>
+  <div class="grid compact">
+<article class="card tier-common compact">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhElEQVR42mNgGAUjCYgIyPwfMItBeMuOI//p7giQhc9evBt4y2saJtDXAaOWj1o+avmo5aOWj1pO1Xp8wCwHWQjCAxLsyA4YsDjP8zaCW05334MsB2EQm64OAFniZagItxw5MdLNchAekAYkyNcDZnlYVAYcD0gHAuaIAeu9DGjXaSABAE8jJGhBWsiLAAAAAElFTkSuQmCC" width="96" height="96" alt="Iron Sword sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Iron Sword</h3>
+      <span class="chip">Common · sword</span>
+    </header>
+    <p class="cost"><span class="num">100 g</span><span class="dps">12.3 <small>eff. DPS</small></span></p>
+    <p class="versus">Baseline for its class.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:17%"></i></span><span class="v">10</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:38%"></i></span><span class="v">1.2/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:14%"></i></span><span class="v">1.5</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:17%"></i></span><span class="v">5%</span></div></div>
+    <p class="passive none">No passive.</p>
+    <p class="flavor">Dependable, dull, and always for sale.</p>
+  </div>
+</article>
+<article class="card tier-common compact">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42mNgGAWjYBQMZyAiIPN/wCwG4S07jvynuyNAFj578W7gLa9pmEBfB4xaPmr5yLAcVsAMmOVhURlgPGDBnudtBHcE3S33MlQEOwAWEnQNepDlIAyzlK6Wg3yNbDldgx0W33SPc3RHDFjDYkBbNaNgFIwYAABMMKxN5/EIHQAAAABJRU5ErkJggg==" width="96" height="96" alt="Iron Dagger sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Iron Dagger</h3>
+      <span class="chip">Common · dagger</span>
+    </header>
+    <p class="cost"><span class="num">60 g</span><span class="dps">12.7 <small>eff. DPS</small></span></p>
+    <p class="versus">Baseline for its class.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:8%"></i></span><span class="v">5</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:75%"></i></span><span class="v">2.4/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:9%"></i></span><span class="v">1</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:40%"></i></span><span class="v">12%</span></div></div>
+    <p class="passive none">No passive.</p>
+    <p class="flavor">Quick in the hand, short on reach.</p>
+  </div>
+</article>
+<article class="card tier-common compact">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR42mNgGAUjBYgIyPwH4QGzuCtK+3+2iwJ9HAGzFNnimycX0N5yZEuRfUw3y9Etpovl2OKYrpbDLEZOYDS3HJev6Wa5r74IGKNnK7paDsIjx3J0BwyI5diK0uFvOcyiAbUc3fcjw3JkBwyo5XSt1XD5nu6Wo6f8AbEc5nu6W47s+wGzHOT7AbEcV6k3II4Y7UaNKAAAxhwR1lkIN7QAAAAASUVORK5CYII=" width="96" height="96" alt="Short Bow sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Short Bow</h3>
+      <span class="chip">Common · bow</span>
+    </header>
+    <p class="cost"><span class="num">120 g</span><span class="dps">8.3 <small>eff. DPS</small></span></p>
+    <p class="versus">Baseline for its class.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:13%"></i></span><span class="v">8</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:31%"></i></span><span class="v">1.0/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:73%"></i></span><span class="v">8</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:27%"></i></span><span class="v">8%</span></div></div>
+    <p class="passive none">No passive.</p>
+    <p class="flavor">Yew and gut string. Keeps you out of arm&#x27;s reach.</p>
+  </div>
+</article>
+<article class="card tier-common compact">
+  <div class="tile"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYklEQVR42mNgGAV0ACICMv+RMd0t74rShuNsFwX6OgLZASDLB8wBMMtjrOgYDdgsp5sDkC2neyJEt3xAUv2o5QNiua++yGiwj1o+mtpHg33U8tHUPhrso5ZT3n0a7UjSGwAA7/bARpdAKXkAAAAASUVORK5CYII=" width="96" height="96" alt="Oak Staff sprite"></div>
+  <div class="body">
+    <header>
+      <h3>Oak Staff</h3>
+      <span class="chip">Common · staff</span>
+    </header>
+    <p class="cost"><span class="num">150 g</span><span class="dps">8.3 <small>eff. DPS</small></span></p>
+    <p class="versus">Baseline for its class.</p>
+    <div class="stats"><div class="stat"><span class="k">Damage</span><span class="bar"><i style="width:15%"></i></span><span class="v">9</span></div><div class="stat"><span class="k">Speed</span><span class="bar"><i style="width:28%"></i></span><span class="v">0.9/s</span></div><div class="stat"><span class="k">Range</span><span class="bar"><i style="width:55%"></i></span><span class="v">6</span></div><div class="stat"><span class="k">Crit</span><span class="bar"><i style="width:17%"></i></span><span class="v">5%</span></div></div>
+    <p class="passive none">No passive.</p>
+    <p class="flavor">A walking stick that has seen one too many spells.</p>
+  </div>
+</article>
+  </div>
+</section>
+  <section class="scale">
+    <div class="tier-head">
+      <h2>At game scale</h2>
+      <p>Legendary, then epic, then common, on a ground the colour of a typical dungeon floor. Judge silhouettes here, not in the cards.</p>
+    </div>
+    <div class="scale-row"><span class="k">1×</span><div class="strip"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABEklEQVR42mNgGAV0BrxsYv/pauGR7P//YRaDsJdpwX+6OgJk2bcb//9XxSweGMtP7ngGthzkCGNVf9o5ABbUyJaDxECWg2gQppvvYT6HWQzyuZq0LX0cgBzsA2Y5yGJYnA8qn6Onk+EV7MipnSYpHhSnxORzmvocOQ6x5XOaWY5uKF3zObgsv5wFN5yuCQ5k6JVlVlgtp3mcw3wO8z3dfQ6zHIRBFsIsB1WpdMnnyI4ARQNdLUdPAzCMbjnNHQGyQFHCAMURs4uU4GkCxqaZ5frKDmAHwEICZCEM07SBAbMchJGDG9kBNLUc5Gtky5Hl6GI5LNjp2q6HZTt8ltM8z2+J+Y9S9NLdEQNm+YD12wYDAACz6qAK3ybbrgAAAABJRU5ErkJggg==" width="32" height="32" alt="Voidreaver at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1UlEQVR42u2XIRLCMBBFK9HIVmCZ4pAcikMgOQOOO3AGuAWKQSMwiKU/M39nW7D5qcjO/GmnIu9nd9MkTVNDHJt2YRKQ3Q82BUP2eVh2E4CnGJ4OxjcFPJpI4PfV4a/LVmdgdvDbsXUDqE4xeNGZV3hReJbGq2mXwjm4FD6CDiGH/+xmyrRjYEAgOXyaBZey4SL8ud4lEU5lrT3FMpyXqxFYkoFT37sBwiUHC8IhvMeZS7p/33UOp4H4T8gOhyJQuuQiXHaZIBxLTbaj/TNRDC6/t80pvkbrAFzncD3NAAAAAElFTkSuQmCC" width="32" height="32" alt="Solaris Blade at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAy0lEQVR42mNgoDPgl9L7zzBQAGQ5CAyIIx78/j9wlsN8vv3NADgAZjkoBOhiOcgibD7PP/Lq//zHdAwBdMtBfLqFAnKwwyynWxbEFux09zlysMMwevqgqQOQg31AshvdHYAt6AfM8gFJdMjBjpzo6FK5DIpgp2vxOmBxDrIgOncm3oKG5paD8IDFubxOzH8brzw4pmu833/+H+wAEJvuloMshllO11YtzHKQ7wekYkEOdrpbjh7sdLd8ZAa7tlkMGA9Y341u1egoQAMA0QtusE2AWsQAAAAASUVORK5CYII=" width="32" height="32" alt="Frostbite at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR42u2WMQrCQBBFU4qNIFYWiZVFkHRaCVZpbLyHRU7gDbyB9/AKHsALrfnBH8a4WpidHQIufFbWsO/t7BBNEsUxG4+cu2xdVZ0cPicxB4AAu+O8maNI4LQSToGyPOhKANI9OQKwu+/iSHjhTzBnFQlf2QlrBeoqcK0oNu0zwSSwETZGCEJu+fRFAEII15Gg5fdJSDC/R7Js2V+A5ZcS2Jiby7KjChKOBG9G9oGUIJQC6nBEglqB+grU4BTYr97vmRJoPHX4ejFxbEbMsid88G4PBYFzrduYUU7+7blPr251uNo7vy/85/sf/Mn/8OHBz2naxAR+zXNbOGJWdlO4WdnR7WZw/pPhb3l0ATO4lDCDW44HPy94elabDl4AAAAASUVORK5CYII=" width="32" height="32" alt="Inferno Maul at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVR42mNgGAlAiEvlPwiDAIimuYUgi5At/7/jEwqmiyMwLIeBmGv/D2kvoI8jUBwAtBhmOf0dgGZ5rVQO7Rzw/9L3/zDLP5yIAmOQ5SBLYZbTzAEgy8EASMMs3zFBB4xhFtPU9zBHgCzQUg6CWw7CsKxI87iHWS4lZgW2DGY5vqxKM8thYnTL8+iW07WoxWU5TYIa3XJQah9Qn+NKaCMzzkctH03to3E+avloah/awY7cfqO7AwbMcvQOJMNIAwCz0TabGdl//QAAAABJRU5ErkJggg==" width="32" height="32" alt="Astral Scepter at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1ElEQVR42mNgoBGofvDgP8NAg/8vff+DMLo4n5TUf7pYjh4iIItBeOWOM/9p6oj/Pzf8R/cxCH/49h9uObaQoUkIwCwG4ZOX7/7Prp32H92BdLUcFvQ0CwGY77BZDnMAXYIfp+X0CH6QRSCLQQkO2XJcOYSqBQ/M8v5ZK8CYLpYjZzd9f///ilZWYMth2Y/ulqNbTHOAbjld6wRYnGOznOaVFcznsPima02HL9hpXkWTY/mA+nz4WE5Oaqeqz4dMah+1fDS1j6b2oWU5eu+FYRTQGQAAMnE+rAyDwooAAAAASUVORK5CYII=" width="32" height="32" alt="Stormcaller at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBklEQVR42u2XvQ0CMQyFbwQKKpagZwR6mmsZgRW4VZiBDgZhANiAzsgnPWSZhPziwIlIVqQo9z7biS9J1/3bt7bFfEYp4yEtbcEP+vXqZaJvPASl+5Vul/Now64fLckJWAiuoRJ8POzjMyAFIcT2bllcUES6pYGSl06nDiaFQuBsOMRZjAVkD7GYNGfDAWBBCGuABrMtT5unc0VwiHAqJRwO+KKuBtf7AL3PITm/Glz/eGTkZnBXRfjgvP7N4CaRyw1nAndFnwJHSTaBfzT66cNlWVU7WHIPIvmbNYUj/eZw6UDRZaJG+l3w4tpOSb955K7N1+QtoO995g5E3dkn60Du0+un2wOwyEqYF8uXhQAAAABJRU5ErkJggg==" width="32" height="32" alt="Dragonbone Bow at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCUlEQVR42mNgGAWjAAfg55H4P2BmgTTs+F/1H0RT4hCYfphZJGvu/W8FxuQ4glL9YAN8bUv/12Yt+39yzzOSDAGpBekB6QWZQXYokuMIqlkOCjpSHYHLcphZFKVikIHEOoAin8OA/36Z/6REBb6gRzaL4lDA5giqxTsyAOVdYhxBE8uJDQm6W45ewg2I5bjinC4OwOVz9DRBM8utdEOx+hw5YYLUUN0RMMtBGFucIzsCpo6qjgAZpqZg9l9ewgCO0R2ALAdSSzUHgAwSE5KHG4puObojYI4F6aHYETDLkQ0jVBfg0kd2sJNrCHrIkWU5pXFJljnIKZ4aCYks86hdoNCtpBwFo4AcAACWwHH0xplOHwAAAABJRU5ErkJggg==" width="32" height="32" alt="Twin Fangs at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhElEQVR42mNgGAUjCYgIyPwfMItBeMuOI//p7giQhc9evBt4y2saJtDXAaOWj1o+avmo5aOWj1pO1Xp8wCwHWQjCAxLsyA4YsDjP8zaCW05334MsB2EQm64OAFniZagItxw5MdLNchAekAYkyNcDZnlYVAYcD0gHAuaIAeu9DGjXaSABAE8jJGhBWsiLAAAAAElFTkSuQmCC" width="32" height="32" alt="Iron Sword at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42mNgGAWjYBQMZyAiIPN/wCwG4S07jvynuyNAFj578W7gLa9pmEBfB4xaPmr5yLAcVsAMmOVhURlgPGDBnudtBHcE3S33MlQEOwAWEnQNepDlIAyzlK6Wg3yNbDldgx0W33SPc3RHDFjDYkBbNaNgFIwYAABMMKxN5/EIHQAAAABJRU5ErkJggg==" width="32" height="32" alt="Iron Dagger at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR42mNgGAUjBYgIyPwH4QGzuCtK+3+2iwJ9HAGzFNnimycX0N5yZEuRfUw3y9Etpovl2OKYrpbDLEZOYDS3HJev6Wa5r74IGKNnK7paDsIjx3J0BwyI5diK0uFvOcyiAbUc3fcjw3JkBwyo5XSt1XD5nu6Wo6f8AbEc5nu6W47s+wGzHOT7AbEcV6k3II4Y7UaNKAAAxhwR1lkIN7QAAAAASUVORK5CYII=" width="32" height="32" alt="Short Bow at 1x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYklEQVR42mNgGAV0ACICMv+RMd0t74rShuNsFwX6OgLZASDLB8wBMMtjrOgYDdgsp5sDkC2neyJEt3xAUv2o5QNiua++yGiwj1o+mtpHg33U8tHUPhrso5ZT3n0a7UjSGwAA7/bARpdAKXkAAAAASUVORK5CYII=" width="32" height="32" alt="Oak Staff at 1x"></div></div><div class="scale-row"><span class="k">2×</span><div class="strip"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABEklEQVR42mNgGAV0BrxsYv/pauGR7P//YRaDsJdpwX+6OgJk2bcb//9XxSweGMtP7ngGthzkCGNVf9o5ABbUyJaDxECWg2gQppvvYT6HWQzyuZq0LX0cgBzsA2Y5yGJYnA8qn6Onk+EV7MipnSYpHhSnxORzmvocOQ6x5XOaWY5uKF3zObgsv5wFN5yuCQ5k6JVlVlgtp3mcw3wO8z3dfQ6zHIRBFsIsB1WpdMnnyI4ARQNdLUdPAzCMbjnNHQGyQFHCAMURs4uU4GkCxqaZ5frKDmAHwEICZCEM07SBAbMchJGDG9kBNLUc5Gtky5Hl6GI5LNjp2q6HZTt8ltM8z2+J+Y9S9NLdEQNm+YD12wYDAACz6qAK3ybbrgAAAABJRU5ErkJggg==" width="64" height="64" alt="Voidreaver at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1UlEQVR42u2XIRLCMBBFK9HIVmCZ4pAcikMgOQOOO3AGuAWKQSMwiKU/M39nW7D5qcjO/GmnIu9nd9MkTVNDHJt2YRKQ3Q82BUP2eVh2E4CnGJ4OxjcFPJpI4PfV4a/LVmdgdvDbsXUDqE4xeNGZV3hReJbGq2mXwjm4FD6CDiGH/+xmyrRjYEAgOXyaBZey4SL8ud4lEU5lrT3FMpyXqxFYkoFT37sBwiUHC8IhvMeZS7p/33UOp4H4T8gOhyJQuuQiXHaZIBxLTbaj/TNRDC6/t80pvkbrAFzncD3NAAAAAElFTkSuQmCC" width="64" height="64" alt="Solaris Blade at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAy0lEQVR42mNgoDPgl9L7zzBQAGQ5CAyIIx78/j9wlsN8vv3NADgAZjkoBOhiOcgibD7PP/Lq//zHdAwBdMtBfLqFAnKwwyynWxbEFux09zlysMMwevqgqQOQg31AshvdHYAt6AfM8gFJdMjBjpzo6FK5DIpgp2vxOmBxDrIgOncm3oKG5paD8IDFubxOzH8brzw4pmu833/+H+wAEJvuloMshllO11YtzHKQ7wekYkEOdrpbjh7sdLd8ZAa7tlkMGA9Y341u1egoQAMA0QtusE2AWsQAAAAASUVORK5CYII=" width="64" height="64" alt="Frostbite at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR42u2WMQrCQBBFU4qNIFYWiZVFkHRaCVZpbLyHRU7gDbyB9/AKHsALrfnBH8a4WpidHQIufFbWsO/t7BBNEsUxG4+cu2xdVZ0cPicxB4AAu+O8maNI4LQSToGyPOhKANI9OQKwu+/iSHjhTzBnFQlf2QlrBeoqcK0oNu0zwSSwETZGCEJu+fRFAEII15Gg5fdJSDC/R7Js2V+A5ZcS2Jiby7KjChKOBG9G9oGUIJQC6nBEglqB+grU4BTYr97vmRJoPHX4ejFxbEbMsid88G4PBYFzrduYUU7+7blPr251uNo7vy/85/sf/Mn/8OHBz2naxAR+zXNbOGJWdlO4WdnR7WZw/pPhb3l0ATO4lDCDW44HPy94elabDl4AAAAASUVORK5CYII=" width="64" height="64" alt="Inferno Maul at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVR42mNgGAlAiEvlPwiDAIimuYUgi5At/7/jEwqmiyMwLIeBmGv/D2kvoI8jUBwAtBhmOf0dgGZ5rVQO7Rzw/9L3/zDLP5yIAmOQ5SBLYZbTzAEgy8EASMMs3zFBB4xhFtPU9zBHgCzQUg6CWw7CsKxI87iHWS4lZgW2DGY5vqxKM8thYnTL8+iW07WoxWU5TYIa3XJQah9Qn+NKaCMzzkctH03to3E+avloah/awY7cfqO7AwbMcvQOJMNIAwCz0TabGdl//QAAAABJRU5ErkJggg==" width="64" height="64" alt="Astral Scepter at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1ElEQVR42mNgoBGofvDgP8NAg/8vff+DMLo4n5TUf7pYjh4iIItBeOWOM/9p6oj/Pzf8R/cxCH/49h9uObaQoUkIwCwG4ZOX7/7Prp32H92BdLUcFvQ0CwGY77BZDnMAXYIfp+X0CH6QRSCLQQkO2XJcOYSqBQ/M8v5ZK8CYLpYjZzd9f///ilZWYMth2Y/ulqNbTHOAbjld6wRYnGOznOaVFcznsPima02HL9hpXkWTY/mA+nz4WE5Oaqeqz4dMah+1fDS1j6b2oWU5eu+FYRTQGQAAMnE+rAyDwooAAAAASUVORK5CYII=" width="64" height="64" alt="Stormcaller at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBklEQVR42u2XvQ0CMQyFbwQKKpagZwR6mmsZgRW4VZiBDgZhANiAzsgnPWSZhPziwIlIVqQo9z7biS9J1/3bt7bFfEYp4yEtbcEP+vXqZaJvPASl+5Vul/Now64fLckJWAiuoRJ8POzjMyAFIcT2bllcUES6pYGSl06nDiaFQuBsOMRZjAVkD7GYNGfDAWBBCGuABrMtT5unc0VwiHAqJRwO+KKuBtf7AL3PITm/Glz/eGTkZnBXRfjgvP7N4CaRyw1nAndFnwJHSTaBfzT66cNlWVU7WHIPIvmbNYUj/eZw6UDRZaJG+l3w4tpOSb955K7N1+QtoO995g5E3dkn60Du0+un2wOwyEqYF8uXhQAAAABJRU5ErkJggg==" width="64" height="64" alt="Dragonbone Bow at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCUlEQVR42mNgGAWjAAfg55H4P2BmgTTs+F/1H0RT4hCYfphZJGvu/W8FxuQ4glL9YAN8bUv/12Yt+39yzzOSDAGpBekB6QWZQXYokuMIqlkOCjpSHYHLcphZFKVikIHEOoAin8OA/36Z/6REBb6gRzaL4lDA5giqxTsyAOVdYhxBE8uJDQm6W45ewg2I5bjinC4OwOVz9DRBM8utdEOx+hw5YYLUUN0RMMtBGFucIzsCpo6qjgAZpqZg9l9ewgCO0R2ALAdSSzUHgAwSE5KHG4puObojYI4F6aHYETDLkQ0jVBfg0kd2sJNrCHrIkWU5pXFJljnIKZ4aCYks86hdoNCtpBwFo4AcAACWwHH0xplOHwAAAABJRU5ErkJggg==" width="64" height="64" alt="Twin Fangs at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhElEQVR42mNgGAUjCYgIyPwfMItBeMuOI//p7giQhc9evBt4y2saJtDXAaOWj1o+avmo5aOWj1pO1Xp8wCwHWQjCAxLsyA4YsDjP8zaCW05334MsB2EQm64OAFniZagItxw5MdLNchAekAYkyNcDZnlYVAYcD0gHAuaIAeu9DGjXaSABAE8jJGhBWsiLAAAAAElFTkSuQmCC" width="64" height="64" alt="Iron Sword at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42mNgGAWjYBQMZyAiIPN/wCwG4S07jvynuyNAFj578W7gLa9pmEBfB4xaPmr5yLAcVsAMmOVhURlgPGDBnudtBHcE3S33MlQEOwAWEnQNepDlIAyzlK6Wg3yNbDldgx0W33SPc3RHDFjDYkBbNaNgFIwYAABMMKxN5/EIHQAAAABJRU5ErkJggg==" width="64" height="64" alt="Iron Dagger at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR42mNgGAUjBYgIyPwH4QGzuCtK+3+2iwJ9HAGzFNnimycX0N5yZEuRfUw3y9Etpovl2OKYrpbDLEZOYDS3HJev6Wa5r74IGKNnK7paDsIjx3J0BwyI5diK0uFvOcyiAbUc3fcjw3JkBwyo5XSt1XD5nu6Wo6f8AbEc5nu6W47s+wGzHOT7AbEcV6k3II4Y7UaNKAAAxhwR1lkIN7QAAAAASUVORK5CYII=" width="64" height="64" alt="Short Bow at 2x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYklEQVR42mNgGAV0ACICMv+RMd0t74rShuNsFwX6OgLZASDLB8wBMMtjrOgYDdgsp5sDkC2neyJEt3xAUv2o5QNiua++yGiwj1o+mtpHg33U8tHUPhrso5ZT3n0a7UjSGwAA7/bARpdAKXkAAAAASUVORK5CYII=" width="64" height="64" alt="Oak Staff at 2x"></div></div><div class="scale-row"><span class="k">3×</span><div class="strip"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABEklEQVR42mNgGAV0BrxsYv/pauGR7P//YRaDsJdpwX+6OgJk2bcb//9XxSweGMtP7ngGthzkCGNVf9o5ABbUyJaDxECWg2gQppvvYT6HWQzyuZq0LX0cgBzsA2Y5yGJYnA8qn6Onk+EV7MipnSYpHhSnxORzmvocOQ6x5XOaWY5uKF3zObgsv5wFN5yuCQ5k6JVlVlgtp3mcw3wO8z3dfQ6zHIRBFsIsB1WpdMnnyI4ARQNdLUdPAzCMbjnNHQGyQFHCAMURs4uU4GkCxqaZ5frKDmAHwEICZCEM07SBAbMchJGDG9kBNLUc5Gtky5Hl6GI5LNjp2q6HZTt8ltM8z2+J+Y9S9NLdEQNm+YD12wYDAACz6qAK3ybbrgAAAABJRU5ErkJggg==" width="96" height="96" alt="Voidreaver at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1UlEQVR42u2XIRLCMBBFK9HIVmCZ4pAcikMgOQOOO3AGuAWKQSMwiKU/M39nW7D5qcjO/GmnIu9nd9MkTVNDHJt2YRKQ3Q82BUP2eVh2E4CnGJ4OxjcFPJpI4PfV4a/LVmdgdvDbsXUDqE4xeNGZV3hReJbGq2mXwjm4FD6CDiGH/+xmyrRjYEAgOXyaBZey4SL8ud4lEU5lrT3FMpyXqxFYkoFT37sBwiUHC8IhvMeZS7p/33UOp4H4T8gOhyJQuuQiXHaZIBxLTbaj/TNRDC6/t80pvkbrAFzncD3NAAAAAElFTkSuQmCC" width="96" height="96" alt="Solaris Blade at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAy0lEQVR42mNgoDPgl9L7zzBQAGQ5CAyIIx78/j9wlsN8vv3NADgAZjkoBOhiOcgibD7PP/Lq//zHdAwBdMtBfLqFAnKwwyynWxbEFux09zlysMMwevqgqQOQg31AshvdHYAt6AfM8gFJdMjBjpzo6FK5DIpgp2vxOmBxDrIgOncm3oKG5paD8IDFubxOzH8brzw4pmu833/+H+wAEJvuloMshllO11YtzHKQ7wekYkEOdrpbjh7sdLd8ZAa7tlkMGA9Y341u1egoQAMA0QtusE2AWsQAAAAASUVORK5CYII=" width="96" height="96" alt="Frostbite at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVR42u2WMQrCQBBFU4qNIFYWiZVFkHRaCVZpbLyHRU7gDbyB9/AKHsALrfnBH8a4WpidHQIufFbWsO/t7BBNEsUxG4+cu2xdVZ0cPicxB4AAu+O8maNI4LQSToGyPOhKANI9OQKwu+/iSHjhTzBnFQlf2QlrBeoqcK0oNu0zwSSwETZGCEJu+fRFAEII15Gg5fdJSDC/R7Js2V+A5ZcS2Jiby7KjChKOBG9G9oGUIJQC6nBEglqB+grU4BTYr97vmRJoPHX4ejFxbEbMsid88G4PBYFzrduYUU7+7blPr251uNo7vy/85/sf/Mn/8OHBz2naxAR+zXNbOGJWdlO4WdnR7WZw/pPhb3l0ATO4lDCDW44HPy94elabDl4AAAAASUVORK5CYII=" width="96" height="96" alt="Inferno Maul at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwUlEQVR42mNgGAlAiEvlPwiDAIimuYUgi5At/7/jEwqmiyMwLIeBmGv/D2kvoI8jUBwAtBhmOf0dgGZ5rVQO7Rzw/9L3/zDLP5yIAmOQ5SBLYZbTzAEgy8EASMMs3zFBB4xhFtPU9zBHgCzQUg6CWw7CsKxI87iHWS4lZgW2DGY5vqxKM8thYnTL8+iW07WoxWU5TYIa3XJQah9Qn+NKaCMzzkctH03to3E+avloah/awY7cfqO7AwbMcvQOJMNIAwCz0TabGdl//QAAAABJRU5ErkJggg==" width="96" height="96" alt="Astral Scepter at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1ElEQVR42mNgoBGofvDgP8NAg/8vff+DMLo4n5TUf7pYjh4iIItBeOWOM/9p6oj/Pzf8R/cxCH/49h9uObaQoUkIwCwG4ZOX7/7Prp32H92BdLUcFvQ0CwGY77BZDnMAXYIfp+X0CH6QRSCLQQkO2XJcOYSqBQ/M8v5ZK8CYLpYjZzd9f///ilZWYMth2Y/ulqNbTHOAbjld6wRYnGOznOaVFcznsPima02HL9hpXkWTY/mA+nz4WE5Oaqeqz4dMah+1fDS1j6b2oWU5eu+FYRTQGQAAMnE+rAyDwooAAAAASUVORK5CYII=" width="96" height="96" alt="Stormcaller at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBklEQVR42u2XvQ0CMQyFbwQKKpagZwR6mmsZgRW4VZiBDgZhANiAzsgnPWSZhPziwIlIVqQo9z7biS9J1/3bt7bFfEYp4yEtbcEP+vXqZaJvPASl+5Vul/Now64fLckJWAiuoRJ8POzjMyAFIcT2bllcUES6pYGSl06nDiaFQuBsOMRZjAVkD7GYNGfDAWBBCGuABrMtT5unc0VwiHAqJRwO+KKuBtf7AL3PITm/Glz/eGTkZnBXRfjgvP7N4CaRyw1nAndFnwJHSTaBfzT66cNlWVU7WHIPIvmbNYUj/eZw6UDRZaJG+l3w4tpOSb955K7N1+QtoO995g5E3dkn60Du0+un2wOwyEqYF8uXhQAAAABJRU5ErkJggg==" width="96" height="96" alt="Dragonbone Bow at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCUlEQVR42mNgGAWjAAfg55H4P2BmgTTs+F/1H0RT4hCYfphZJGvu/W8FxuQ4glL9YAN8bUv/12Yt+39yzzOSDAGpBekB6QWZQXYokuMIqlkOCjpSHYHLcphZFKVikIHEOoAin8OA/36Z/6REBb6gRzaL4lDA5giqxTsyAOVdYhxBE8uJDQm6W45ewg2I5bjinC4OwOVz9DRBM8utdEOx+hw5YYLUUN0RMMtBGFucIzsCpo6qjgAZpqZg9l9ewgCO0R2ALAdSSzUHgAwSE5KHG4puObojYI4F6aHYETDLkQ0jVBfg0kd2sJNrCHrIkWU5pXFJljnIKZ4aCYks86hdoNCtpBwFo4AcAACWwHH0xplOHwAAAABJRU5ErkJggg==" width="96" height="96" alt="Twin Fangs at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhElEQVR42mNgGAUjCYgIyPwfMItBeMuOI//p7giQhc9evBt4y2saJtDXAaOWj1o+avmo5aOWj1pO1Xp8wCwHWQjCAxLsyA4YsDjP8zaCW05334MsB2EQm64OAFniZagItxw5MdLNchAekAYkyNcDZnlYVAYcD0gHAuaIAeu9DGjXaSABAE8jJGhBWsiLAAAAAElFTkSuQmCC" width="96" height="96" alt="Iron Sword at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42mNgGAWjYBQMZyAiIPN/wCwG4S07jvynuyNAFj578W7gLa9pmEBfB4xaPmr5yLAcVsAMmOVhURlgPGDBnudtBHcE3S33MlQEOwAWEnQNepDlIAyzlK6Wg3yNbDldgx0W33SPc3RHDFjDYkBbNaNgFIwYAABMMKxN5/EIHQAAAABJRU5ErkJggg==" width="96" height="96" alt="Iron Dagger at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR42mNgGAUjBYgIyPwH4QGzuCtK+3+2iwJ9HAGzFNnimycX0N5yZEuRfUw3y9Etpovl2OKYrpbDLEZOYDS3HJev6Wa5r74IGKNnK7paDsIjx3J0BwyI5diK0uFvOcyiAbUc3fcjw3JkBwyo5XSt1XD5nu6Wo6f8AbEc5nu6W47s+wGzHOT7AbEcV6k3II4Y7UaNKAAAxhwR1lkIN7QAAAAASUVORK5CYII=" width="96" height="96" alt="Short Bow at 3x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYklEQVR42mNgGAV0ACICMv+RMd0t74rShuNsFwX6OgLZASDLB8wBMMtjrOgYDdgsp5sDkC2neyJEt3xAUv2o5QNiua++yGiwj1o+mtpHg33U8tHUPhrso5ZT3n0a7UjSGwAA7/bARpdAKXkAAAAASUVORK5CYII=" width="96" height="96" alt="Oak Staff at 3x"></div></div>
+    <p class="note">Sprites live in <code>assets/weapons/&lt;id&gt;.png</code>, the strip in <code>spritesheet.png</code> with its atlas in <code>spritesheet.json</code>. Stats are in <code>data/weapons.json</code>.</p>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,292 @@
+{
+  "$schema_note": "Stats are per-hit unless noted. dps = damage * attack_speed. effective_dps folds in crits: dps * (1 + crit_chance * (crit_multiplier - 1)). Passive effects are on top of that.",
+  "tiers": {
+    "common": {
+      "label": "Common",
+      "color": "#9aa0b0",
+      "cost_multiplier": 1.0,
+      "dps_multiplier": 1.0,
+      "notes": "Starter gear. Cheap, no passive."
+    },
+    "epic": {
+      "label": "Epic",
+      "color": "#a24dff",
+      "cost_multiplier": 35.0,
+      "dps_multiplier": 2.8,
+      "notes": "Roughly 35x the price of the common in its class for ~2.8x the effective DPS, plus a passive with a utility angle (range, pierce, chain, poison)."
+    },
+    "legendary": {
+      "label": "Legendary",
+      "color": "#f2b632",
+      "cost_multiplier": 50.0,
+      "dps_multiplier": 3.4,
+      "notes": "Roughly 50x the price for ~3.4x the effective DPS, plus a passive that changes how the weapon plays."
+    }
+  },
+  "weapons": [
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "class": "sword",
+      "tier": "common",
+      "cost": 100,
+      "sprite": "assets/weapons/iron_sword.png",
+      "stats": {
+        "damage": 10,
+        "attack_speed": 1.2,
+        "range": 1.5,
+        "crit_chance": 0.05,
+        "crit_multiplier": 1.5,
+        "knockback": 1
+      },
+      "dps": 12.0,
+      "effective_dps": 12.3,
+      "passive": null,
+      "flavor": "Dependable, dull, and always for sale."
+    },
+    {
+      "id": "iron_dagger",
+      "name": "Iron Dagger",
+      "class": "dagger",
+      "tier": "common",
+      "cost": 60,
+      "sprite": "assets/weapons/iron_dagger.png",
+      "stats": {
+        "damage": 5,
+        "attack_speed": 2.4,
+        "range": 1.0,
+        "crit_chance": 0.12,
+        "crit_multiplier": 1.5,
+        "knockback": 0
+      },
+      "dps": 12.0,
+      "effective_dps": 12.7,
+      "passive": null,
+      "flavor": "Quick in the hand, short on reach."
+    },
+    {
+      "id": "short_bow",
+      "name": "Short Bow",
+      "class": "bow",
+      "tier": "common",
+      "cost": 120,
+      "sprite": "assets/weapons/short_bow.png",
+      "stats": {
+        "damage": 8,
+        "attack_speed": 1.0,
+        "range": 8,
+        "crit_chance": 0.08,
+        "crit_multiplier": 1.5,
+        "knockback": 0
+      },
+      "dps": 8.0,
+      "effective_dps": 8.3,
+      "passive": null,
+      "flavor": "Yew and gut string. Keeps you out of arm's reach."
+    },
+    {
+      "id": "oak_staff",
+      "name": "Oak Staff",
+      "class": "staff",
+      "tier": "common",
+      "cost": 150,
+      "sprite": "assets/weapons/oak_staff.png",
+      "stats": {
+        "damage": 9,
+        "attack_speed": 0.9,
+        "range": 6,
+        "crit_chance": 0.05,
+        "crit_multiplier": 1.5,
+        "knockback": 1
+      },
+      "dps": 8.1,
+      "effective_dps": 8.3,
+      "passive": null,
+      "flavor": "A walking stick that has seen one too many spells."
+    },
+    {
+      "id": "voidreaver_greatsword",
+      "name": "Voidreaver",
+      "class": "greatsword",
+      "tier": "legendary",
+      "cost": 6000,
+      "sprite": "assets/weapons/voidreaver_greatsword.png",
+      "stats": {
+        "damage": 42,
+        "attack_speed": 0.8,
+        "range": 2.2,
+        "crit_chance": 0.1,
+        "crit_multiplier": 2.0,
+        "knockback": 3
+      },
+      "dps": 33.6,
+      "effective_dps": 37.0,
+      "passive": {
+        "name": "Void Rend",
+        "description": "Every hit shreds 15% of the target's armor for 4s. Stacks up to 3 times."
+      },
+      "flavor": "Obsidian split by a seam of nothing. It hums when it is hungry."
+    },
+    {
+      "id": "solaris_blade",
+      "name": "Solaris Blade",
+      "class": "sword",
+      "tier": "legendary",
+      "cost": 4500,
+      "sprite": "assets/weapons/solaris_blade.png",
+      "stats": {
+        "damage": 28,
+        "attack_speed": 1.4,
+        "range": 1.7,
+        "crit_chance": 0.12,
+        "crit_multiplier": 1.75,
+        "knockback": 1
+      },
+      "dps": 39.2,
+      "effective_dps": 42.7,
+      "passive": {
+        "name": "Sunfire",
+        "description": "20% chance per hit to ignite the target: 8 damage per second for 3s."
+      },
+      "flavor": "Forged at noon on midsummer. The fuller never stops glowing."
+    },
+    {
+      "id": "frostbite_katana",
+      "name": "Frostbite",
+      "class": "katana",
+      "tier": "legendary",
+      "cost": 5000,
+      "sprite": "assets/weapons/frostbite_katana.png",
+      "stats": {
+        "damage": 20,
+        "attack_speed": 1.9,
+        "range": 1.6,
+        "crit_chance": 0.25,
+        "crit_multiplier": 2.2,
+        "knockback": 0
+      },
+      "dps": 38.0,
+      "effective_dps": 49.4,
+      "passive": {
+        "name": "Frostbite",
+        "description": "Critical hits slow the target by 40% for 2s."
+      },
+      "flavor": "Quenched in a glacier. The edge is so cold it never dulls."
+    },
+    {
+      "id": "stormcaller_spear",
+      "name": "Stormcaller",
+      "class": "spear",
+      "tier": "epic",
+      "cost": 4200,
+      "sprite": "assets/weapons/stormcaller_spear.png",
+      "stats": {
+        "damage": 24,
+        "attack_speed": 1.3,
+        "range": 3.0,
+        "crit_chance": 0.1,
+        "crit_multiplier": 1.75,
+        "knockback": 2
+      },
+      "dps": 31.2,
+      "effective_dps": 33.5,
+      "passive": {
+        "name": "Chain Lightning",
+        "description": "Every 4th hit arcs to up to 2 nearby enemies for 50% damage."
+      },
+      "flavor": "Ash shaft, sky-iron head, and a temper to match."
+    },
+    {
+      "id": "inferno_warhammer",
+      "name": "Inferno Maul",
+      "class": "warhammer",
+      "tier": "legendary",
+      "cost": 5500,
+      "sprite": "assets/weapons/inferno_warhammer.png",
+      "stats": {
+        "damage": 60,
+        "attack_speed": 0.6,
+        "range": 1.8,
+        "crit_chance": 0.08,
+        "crit_multiplier": 2.0,
+        "knockback": 5
+      },
+      "dps": 36.0,
+      "effective_dps": 38.9,
+      "passive": {
+        "name": "Eruption",
+        "description": "Each slam leaves a lava pool that deals 6 damage per second for 3s."
+      },
+      "flavor": "The head was never cast. It was pulled, still burning, from the mountain."
+    },
+    {
+      "id": "dragonbone_bow",
+      "name": "Dragonbone Bow",
+      "class": "bow",
+      "tier": "epic",
+      "cost": 4800,
+      "sprite": "assets/weapons/dragonbone_bow.png",
+      "stats": {
+        "damage": 26,
+        "attack_speed": 1.1,
+        "range": 11,
+        "crit_chance": 0.18,
+        "crit_multiplier": 2.0,
+        "knockback": 1
+      },
+      "dps": 28.6,
+      "effective_dps": 33.7,
+      "passive": {
+        "name": "Piercing Shot",
+        "description": "Arrows pass through up to 2 enemies."
+      },
+      "flavor": "Strung with sinew from the same dragon. The skull still watches the arrow."
+    },
+    {
+      "id": "twin_fangs",
+      "name": "Twin Fangs",
+      "class": "dagger",
+      "tier": "epic",
+      "cost": 3800,
+      "sprite": "assets/weapons/twin_fangs.png",
+      "stats": {
+        "damage": 10,
+        "attack_speed": 3.2,
+        "range": 1.0,
+        "crit_chance": 0.3,
+        "crit_multiplier": 2.0,
+        "knockback": 0
+      },
+      "dps": 32.0,
+      "effective_dps": 41.6,
+      "passive": {
+        "name": "Venom",
+        "description": "Each hit adds a poison stack: 3 damage per second for 4s, up to 5 stacks."
+      },
+      "flavor": "Two blades, one grudge."
+    },
+    {
+      "id": "astral_scepter",
+      "name": "Astral Scepter",
+      "class": "staff",
+      "tier": "legendary",
+      "cost": 5200,
+      "sprite": "assets/weapons/astral_scepter.png",
+      "stats": {
+        "damage": 30,
+        "attack_speed": 1.0,
+        "range": 8,
+        "crit_chance": 0.1,
+        "crit_multiplier": 1.75,
+        "knockback": 1
+      },
+      "dps": 30.0,
+      "effective_dps": 32.3,
+      "passive": {
+        "name": "Arcane Echo",
+        "description": "Spells have a 25% chance to cast twice."
+      },
+      "flavor": "The orb is a captured star. It is not happy about it."
+    }
+  ]
+}
