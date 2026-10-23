@@ -16,9 +16,10 @@ EXTS = {".wav", ".mp3", ".aif", ".aiff", ".flac", ".ogg", ".m4a", ".opus"}
 
 
 def decode(path):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+    # decode as stereo and average: ffmpeg's own "-ac 1" downmix sums channels, which over-reads peaks
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"],
                          capture_output=True, check=True).stdout
-    return np.frombuffer(raw, np.float32)
+    return np.frombuffer(raw, np.float32).reshape(-1, 2).mean(axis=1)
 
 
 def db(x):

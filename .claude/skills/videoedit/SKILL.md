@@ -155,7 +155,7 @@ Then hand off for manual finishing.
 ### B1. Session protocol
 
 **Step 0 — Confirm assets.**
-- Locate the Ultimate Editors library in the project (often under `public/`; search for folder names like "whoosh", "sci-fi", "risers"). If you can't find it, ask for the path — don't substitute another library.
+- Locate the Ultimate Editors library in the project (often under `public/`; search for folder names like "whoosh", "sci-fi", "risers"). If you can't find it, ask for the path. The only approved fallback is the house library in `sfx-library/` at the repo root (README there). Its codes (W01–W10, T01–T14, R01–R06, takes A–D) mirror the library sections in this skill. When `sfx-library/picks.json` exists, use the picked take for each type and treat "redo" entries as unsolved. Use each sound's `lock` from `sfx-library/catalog.json` (`peak` or `onset`) when placing it. Say in the cue sheet which library a sound came from.
 - Run `python3 scripts/sfx_inventory.py <library-dir> --fps <composition fps>` and keep the output as your audition sheet.
 - Confirm which composition you're working on (`src/Root.tsx` lists them) and its fps and duration.
 - Check for original audio (voice, built-in animation sounds). Mute anything that isn't the voice — don't delete it.
