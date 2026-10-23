@@ -110,8 +110,8 @@ W, Tx, R = "W_WHOOSHES", "T_TEXTURES", "R_RISERS-AND-HITS"
 def _(): return whoosh(0.6, 0.5, "pink", 350, 2600, 1.1, comb_ms=3.2, verb=(0.5, 0.12))
 @add(W, "W01", "Hollow-whoosh", "B", "resonant-tube", "Tube-like resonance with more texture. Slides that need body.")
 def _(): return whoosh(0.65, 0.5, "pink", 250, 2200, 1.6, comb_ms=5.5, verb=(0.6, 0.14), tone=(220, 0.3, "tri", 0.12))
-@add(W, "W01", "Hollow-whoosh", "C", "fast-punchy", "Quick, tight hollow swish with a sharp peak. Fast slides.")
-def _(): return whoosh(0.38, 0.45, "white", 600, 4500, 1.3, rise=2.6, fall=2.2, comb_ms=2.4, verb=(0.35, 0.08))
+@add(W, "W01", "Hollow-whoosh", "C", "fast-punchy", "Quick, tight hollow swish with a sharp peak, pitched slightly low. Fast slides.")
+def _(): return whoosh(0.38, 0.45, "white", 450, 3400, 1.3, rise=2.6, fall=2.2, comb_ms=3.2, verb=(0.35, 0.08))
 @add(W, "W01", "Hollow-whoosh", "D", "wide-pan", "Wide stereo hollow sweep traveling hard left to right. Pans and slide-ins from the side.")
 def _(): return whoosh(0.75, 0.55, "pink", 300, 3000, 1.0, pan_from=-0.95, pan_to=0.95, comb_ms=4.0, verb=(0.7, 0.16))
 
