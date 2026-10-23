@@ -1,0 +1,271 @@
+{
+ "_note": "v6: locked to the real voice (Eleven v4 'Desmond', pauses tightened via voice/cutlist.json, 19.55 s).",
+ "fps": 30,
+ "frames": 600,
+ "script": "Divorced? You might be owed Social Security on your ex's record, and it won't lower their check. Here's how to tell. One: married ten years or more. Two: not remarried. Three: 62 or older. Check all three? You may qualify. Visit the ClearPath website for more information.",
+ "scenes": [
+  {
+   "id": "S1",
+   "kind": "A",
+   "f0": 0,
+   "f1": 133,
+   "in": "start"
+  },
+  {
+   "id": "S2",
+   "kind": "B_benefit",
+   "f0": 133,
+   "f1": 190,
+   "in": "cut"
+  },
+  {
+   "id": "S3",
+   "kind": "A",
+   "f0": 190,
+   "f1": 224,
+   "in": "cut"
+  },
+  {
+   "id": "S4",
+   "kind": "B_checklist",
+   "f0": 224,
+   "f1": 456,
+   "in": "wipe",
+   "wipe_from": [
+    540,
+    1530
+   ]
+  },
+  {
+   "id": "S5",
+   "kind": "A",
+   "f0": 456,
+   "f1": 496,
+   "in": "wipe",
+   "wipe_from": [
+    910,
+    1180
+   ]
+  },
+  {
+   "id": "S6",
+   "kind": "B_cta",
+   "f0": 496,
+   "f1": 600,
+   "in": "cut"
+  }
+ ],
+ "wipe_frames": 12,
+ "captions": [
+  {
+   "f0": 5,
+   "f1": 36,
+   "small": [],
+   "big": "Divorced?",
+   "big_f": 5
+  },
+  {
+   "f0": 37,
+   "f1": 94,
+   "small": [
+    [
+     "You",
+     37
+    ],
+    [
+     "might",
+     43
+    ],
+    [
+     "be",
+     48
+    ],
+    [
+     "owed",
+     54
+    ]
+   ],
+   "big": "Social Security",
+   "big_f": 60
+  },
+  {
+   "f0": 94,
+   "f1": 133,
+   "small": [
+    [
+     "on",
+     94
+    ],
+    [
+     "your",
+     100
+    ]
+   ],
+   "big": "ex's record.",
+   "big_f": 106
+  },
+  {
+   "f0": 134,
+   "f1": 190,
+   "small": [
+    [
+     "and",
+     136
+    ],
+    [
+     "it",
+     142
+    ],
+    [
+     "won't",
+     148
+    ],
+    [
+     "lower",
+     154
+    ]
+   ],
+   "big": "their check.",
+   "big_f": 167,
+   "where": "top"
+  },
+  {
+   "f0": 191,
+   "f1": 224,
+   "small": [
+    [
+     "Here's",
+     191
+    ],
+    [
+     "how",
+     197
+    ]
+   ],
+   "big": "to tell.",
+   "big_f": 202
+  },
+  {
+   "f0": 461,
+   "f1": 496,
+   "small": [
+    [
+     "You",
+     461
+    ]
+   ],
+   "big": "may qualify.",
+   "big_f": 466
+  }
+ ],
+ "hook_icon_f": 3,
+ "snap_zoom": {
+  "f": 106,
+  "zoom": 1.1,
+  "frames": 4
+ },
+ "benefit_cards": {
+  "a_f": 135,
+  "b_f": 145,
+  "slide": 14,
+  "badge_f": 173
+ },
+ "dots_pop": [
+  207,
+  211,
+  215
+ ],
+ "checklist": {
+  "title_f": 232,
+  "rows": [
+   {
+    "text": "Married 10+ years",
+    "slide_f": 238,
+    "check_f": 289
+   },
+   {
+    "text": "Not remarried",
+    "slide_f": 303,
+    "check_f": 342
+   },
+   {
+    "text": "Age 62 or older",
+    "slide_f": 356,
+    "check_f": 412
+   }
+  ],
+  "push": {
+   "f0": 426,
+   "f1": 448,
+   "zoom": 1.05
+  },
+  "ask_f": 426,
+  "fine_print": "Your ex must be 62+. If they aren't collecting yet, you must be divorced 2+ years. Amount depends on your own work record."
+ },
+ "success_f": 479,
+ "cta": {
+  "card_f": 498,
+  "slide": 16,
+  "button_f": 518,
+  "sub_f": 541,
+  "brand": "Social Security Made Easy",
+  "wordmark": "ClearPath",
+  "button": "Visit the ClearPath website",
+  "sub": "for more information",
+  "disclaimer": "Not affiliated with or endorsed by the Social Security Administration or any government agency."
+ },
+ "voice_gaps": [
+  [
+   23,
+   37
+  ],
+  [
+   123,
+   136
+  ],
+  [
+   179,
+   191
+  ],
+  [
+   214,
+   234
+  ],
+  [
+   244,
+   252
+  ],
+  [
+   292,
+   303
+  ],
+  [
+   312,
+   321
+  ],
+  [
+   346,
+   356
+  ],
+  [
+   366,
+   374
+  ],
+  [
+   415,
+   426
+  ],
+  [
+   447,
+   461
+  ],
+  [
+   488,
+   501
+  ]
+ ],
+ "rings_split": {
+  "f": 6,
+  "frames": 10
+ }
+}

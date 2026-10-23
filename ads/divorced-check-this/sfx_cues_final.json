@@ -1,0 +1,267 @@
+{
+ "_note": "Cue sheet v6, locked to the real voice. All sounds from the house library picks.",
+ "library_root": "../../sfx-library",
+ "cues": [
+  {
+   "id": "W01",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 7,
+   "db": -12,
+   "why": "hook rings slide apart, fastest f7"
+  },
+  {
+   "id": "W02",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 107,
+   "db": -12,
+   "why": "snap zoom on 'ex's record' (wanted W05 short; W01C is your quick slide)"
+  },
+  {
+   "id": "W03",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 136,
+   "db": -12,
+   "why": "'Your benefit' card slides up"
+  },
+  {
+   "id": "W04",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 146,
+   "db": -12,
+   "why": "'Your ex's benefit' card slides up"
+  },
+  {
+   "id": "W05",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10C_velvet.wav",
+   "code": "W10C",
+   "sync": 224,
+   "db": -10,
+   "why": "circle wipe into the checklist (wanted W07/W08; W10C velvet is your big-move pick)"
+  },
+  {
+   "id": "W06",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 233,
+   "db": -12,
+   "why": "'Do you qualify?' title slides down"
+  },
+  {
+   "id": "W07",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 239,
+   "db": -12,
+   "why": "row 1 slides in"
+  },
+  {
+   "id": "W08",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 304,
+   "db": -12,
+   "why": "row 2 slides in"
+  },
+  {
+   "id": "W09",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "code": "W01C",
+   "sync": 357,
+   "db": -12,
+   "why": "row 3 slides in"
+  },
+  {
+   "id": "W10",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10C_velvet.wav",
+   "code": "W10C",
+   "sync": 437,
+   "db": -12,
+   "why": "slow push-in on 'Check all three?' (wanted W04 wind; W10C is your smoothest)"
+  },
+  {
+   "id": "W11",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10C_velvet.wav",
+   "code": "W10C",
+   "sync": 456,
+   "db": -10,
+   "why": "circle wipe back to Tom"
+  },
+  {
+   "id": "W12",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02C_sub-rumble.wav",
+   "code": "W02C",
+   "sync": 499,
+   "db": -12,
+   "why": "CTA card slides up: heavier move, sub rumble"
+  },
+  {
+   "id": "T01",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 133,
+   "db": -7,
+   "why": "hard cut to B-roll (wanted T05 camera click)"
+  },
+  {
+   "id": "T02",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 173,
+   "db": -6,
+   "why": "'No change' badge pops (state change)"
+  },
+  {
+   "id": "T03",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 190,
+   "db": -7,
+   "why": "hard cut back to Tom"
+  },
+  {
+   "id": "T04",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 207,
+   "db": -9,
+   "why": "dot 1 pops (sequence, kept quiet)"
+  },
+  {
+   "id": "T05",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 211,
+   "db": -9,
+   "why": "dot 2 pops"
+  },
+  {
+   "id": "T06",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 215,
+   "db": -9,
+   "why": "dot 3 pops"
+  },
+  {
+   "id": "T07",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "code": "T06C",
+   "sync": 289,
+   "db": -6,
+   "why": "row 1 toggle on: your felt press"
+  },
+  {
+   "id": "T08",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "code": "T06C",
+   "sync": 342,
+   "db": -6,
+   "why": "row 2 toggle on"
+  },
+  {
+   "id": "T09",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "code": "T06C",
+   "sync": 412,
+   "db": -6,
+   "why": "row 3 toggle on"
+  },
+  {
+   "id": "T10",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "code": "T06C",
+   "sync": 479,
+   "db": -7,
+   "why": "green check lands on 'may qualify' (wanted T12 success)"
+  },
+  {
+   "id": "T11",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "code": "T03D",
+   "sync": 496,
+   "db": -7,
+   "why": "hard cut to the CTA"
+  },
+  {
+   "id": "T12",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "code": "T06C",
+   "sync": 518,
+   "db": -6,
+   "why": "CTA button pressed into place (diegetic press; wanted T02)"
+  },
+  {
+   "id": "R01",
+   "track": "RISERS",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01C_sub-swell.wav",
+   "code": "R01C",
+   "sync": 222,
+   "db": -5,
+   "why": "build from hook into the checklist; peaks 2 frames before the wipe at f222, inside the f211-223 voice gap"
+  },
+  {
+   "id": "R02",
+   "track": "RISERS",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01C_sub-swell.wav",
+   "code": "R01C",
+   "sync": 454,
+   "db": -5,
+   "why": "build into 'You may qualify'; peaks 2 frames before the wipe at f460, inside the f456-466 voice gap"
+  },
+  {
+   "id": "H01",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05D_sub-drop.wav",
+   "code": "R05D",
+   "sync": 3,
+   "db": -8,
+   "why": "hook impact as the rings icon lands (wanted T04 sci-fi impact; sub drop matches your taste)"
+  },
+  {
+   "id": "H02",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05D_sub-drop.wav",
+   "code": "R05D",
+   "sync": 224,
+   "db": -8,
+   "why": "lands R01 on the wipe"
+  },
+  {
+   "id": "H03",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05D_sub-drop.wav",
+   "code": "R05D",
+   "sync": 456,
+   "db": -7,
+   "why": "lands R02 on the wipe; the ad's loudest stack"
+  }
+ ]
+}
