@@ -204,7 +204,8 @@ Report it before doing anything else. It's the cue sheet for all three passes.
 - Builds go where the voice pauses. A riser can be the loudest thing on screen only because the dialogue has stopped. If the voice runs through a transition, keep the riser under it, or move the build to the nearest gap.
 - Talking-head stretches with no on-screen motion stay dry. Silence there is correct, not a gap to fill.
 - Letter-by-letter gears: one emphasis per letter/element, timed to each appearance.
-- Lock the sound's transient/peak (from the inventory), not the clip start, to the visual: `startFrame = syncFrame − peakFrame`.
+- Lock the sound's measured point (from the inventory), not the clip start, to the visual. Whooshes, risers and hits lock their peak: `startFrame = syncFrame − peakFrame`. Textures lock their onset (`peak − attack`), so a multi-note chime whose loudest note comes last still starts on the event frame.
+- Kinetic captions (word-by-word reveals, key-word slide-ins) on A-roll are not sounded. In the approved reference they animate in silence. Sound the UI and graphics around them, not the caption text.
 
 ### B4. Using the library
 
