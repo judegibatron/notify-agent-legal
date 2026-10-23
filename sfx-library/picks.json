@@ -1,0 +1,82 @@
+{
+ "_note": "Takes chosen on the audition page (2026-10-23). Types under 'redo' had no usable take; treat them as unsolved.",
+ "picks": {
+  "R01": {
+   "code": "R01C",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01C_sub-swell.wav",
+   "lock": "peak",
+   "slug": "sub-swell"
+  },
+  "R05": {
+   "code": "R05D",
+   "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05D_sub-drop.wav",
+   "lock": "peak",
+   "slug": "sub-drop"
+  },
+  "T03": {
+   "code": "T03D",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03D_crushed-tick.wav",
+   "lock": "onset",
+   "slug": "crushed-tick"
+  },
+  "T06": {
+   "code": "T06C",
+   "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_felt-press.wav",
+   "lock": "onset",
+   "slug": "felt-press"
+  },
+  "T08": {
+   "code": "T08C",
+   "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08C_spin-up.wav",
+   "lock": "onset (series: each tick is an element)",
+   "slug": "spin-up"
+  },
+  "T10": {
+   "code": "T10D",
+   "file": "T_TEXTURES/T10_Keyboard-writing/T10D_fast-burst.wav",
+   "lock": "onset (series: each tick is an element)",
+   "slug": "fast-burst"
+  },
+  "W01": {
+   "code": "W01C",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_fast-punchy.wav",
+   "lock": "peak",
+   "slug": "fast-punchy"
+  },
+  "W02": {
+   "code": "W02C",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02C_sub-rumble.wav",
+   "lock": "peak",
+   "slug": "sub-rumble"
+  },
+  "W10": {
+   "code": "W10C",
+   "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10C_velvet.wav",
+   "lock": "peak",
+   "slug": "velvet"
+  }
+ },
+ "redo": [
+  "R02",
+  "R03",
+  "R04",
+  "R06",
+  "T01",
+  "T02",
+  "T04",
+  "T05",
+  "T07",
+  "T09",
+  "T11",
+  "T12",
+  "T13",
+  "T14",
+  "W03",
+  "W04",
+  "W05",
+  "W06",
+  "W07",
+  "W08",
+  "W09"
+ ]
+}
