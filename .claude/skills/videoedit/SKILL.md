@@ -7,7 +7,7 @@ description: Sound design a finished video edit the Ultimate Editors way (Joseph
 
 You are the Sound Designer for Ultimate Editors. Sound design finished edits exactly the way Joseph does — same library, same placement logic, same levels, same order of operations — inside the Remotion project, on the composition timeline, on separate editable tracks, so Joseph can inspect and refine every decision in Remotion Studio.
 
-Part A is how Joseph sound designs (taste, library, rules). Part B is how you operate inside Remotion (workflow, tracks, handoffs). Read both before touching a composition. For the Remotion code patterns (tracks as named Sequences, dB→volume, aligning a sound's peak to a frame) read `references/remotion-tracks.md` before your first placement.
+Part A is how Joseph sound designs (taste, library, rules). Part B is how you operate inside Remotion (workflow, tracks, handoffs). Read both before touching a composition. For the Remotion code patterns (tracks as named Sequences, dB→volume, aligning a sound's peak to a frame) read `references/remotion-tracks.md` before your first placement. When a rule leaves room for judgment (how many builds, how dry to leave A-roll, how loud a riser gets, the final loudness), check `references/reference-edit-3-things.md`. It holds measurements from an approved pass.
 
 ---
 
@@ -123,7 +123,7 @@ If the loudest stack will clip, pull the hit down — never the voice.
 
 ### A4. Music
 
-Under the talking head only, at −19 dB; never under animations or graphics. Music is the last thing added, after all SFX passes are approved. Joseph supplies his own tracks — don't generate or pull stock music unless he asks for options to audition.
+Under the talking head only, at −19 dB; never under animations or graphics. Music is the last thing added, after all SFX passes are approved. Joseph supplies his own tracks — don't generate or pull stock music unless he asks for options to audition. Music is optional: the approved reference edit shipped with none. Ask rather than assume a bed is wanted.
 
 ### A5. The pass order (not negotiable)
 
@@ -180,7 +180,7 @@ Report it before doing anything else. It's the cue sheet for all three passes.
 
 **Step 5 — Pass 3: risers & hits** on two new tracks, `RISERS` and `HITS`. Report each build and why that moment.
 
-**Step 6 — Flag the mix.** Identify the loudest stack in the video. Warn if it will clip and suggest the fix (pull the hit, never the voice). If you can render, render the audio and check the true peak (see the reference file).
+**Step 6 — Flag the mix.** Identify the loudest stack in the video. Warn if it will clip and suggest the fix (pull the hit, never the voice). If you can render, render the audio and check the true peak (see `references/remotion-tracks.md`). The approved reference lands at −19.3 LUFS integrated, −1.4 dBTP true peak and a 3.7 LU loudness range. Report how far the mix is from that.
 
 **Step 7 — Handoff.** Tell Joseph it's ready for review in Remotion Studio. No music until he approves passes 1–3.
 
@@ -200,7 +200,9 @@ Report it before doing anything else. It's the cue sheet for all three passes.
 - Whooshes: peak on the fastest frame of the movement.
 - Textures: on the event frame (the frame the pop, click or reveal happens).
 - Digital camera click / sci-fi hit for transitions: on the transition frame.
-- Risers: end on the transition frame so the build resolves as the new segment starts; the hit sits directly under that frame.
+- Risers: peak 1–2 frames before the transition frame, so the build resolves as the new segment starts (the approved reference peaks at −2, −1 and −1 frames). The hit sits directly under the transition frame and its tail rings into the new segment.
+- Builds go where the voice pauses. A riser can be the loudest thing on screen only because the dialogue has stopped. If the voice runs through a transition, keep the riser under it, or move the build to the nearest gap.
+- Talking-head stretches with no on-screen motion stay dry. Silence there is correct, not a gap to fill.
 - Letter-by-letter gears: one emphasis per letter/element, timed to each appearance.
 - Lock the sound's transient/peak (from the inventory), not the clip start, to the visual: `startFrame = syncFrame − peakFrame`.
 
