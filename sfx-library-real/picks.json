@@ -1,0 +1,102 @@
+{
+ "_note": "Takes chosen on the audition page (2026-10-24), real-recording library. Types under 'redo' had no take picked.",
+ "picks": {
+  "W01": {
+   "code": "W01B",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "lock": "peak",
+   "description": "Metal tube swing, second take."
+  },
+  "W02": {
+   "code": "W02A",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "lock": "peak",
+   "description": "Wooden sheet swing."
+  },
+  "W03": {
+   "code": "W03C",
+   "file": "W_WHOOSHES/W03_Futuristic-whoosh/W03C_sword-cut.wav",
+   "lock": "peak",
+   "description": "Sword cut."
+  },
+  "W05": {
+   "code": "W05D",
+   "file": "W_WHOOSHES/W05_Short-whoosh/W05D_arrow-through-the-air.wav",
+   "lock": "peak",
+   "description": "Arrow through the air."
+  },
+  "T01": {
+   "code": "T01A",
+   "file": "T_TEXTURES/T01_Pop/T01A_champagne-cork.wav",
+   "lock": "onset",
+   "description": "Champagne cork."
+  },
+  "T02": {
+   "code": "T02A",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "lock": "onset",
+   "description": "Mouse click."
+  },
+  "T03": {
+   "code": "T03C",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "lock": "onset",
+   "description": "Switch click."
+  },
+  "T05": {
+   "code": "T05C",
+   "file": "T_TEXTURES/T05_Digital-camera-click/T05C_reflex-camera-shutter.wav",
+   "lock": "onset",
+   "description": "Reflex camera shutter."
+  },
+  "T08": {
+   "code": "T08B",
+   "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08B_small-alarm-clock-ticking.wav",
+   "lock": "onset (series: each hit is an element)",
+   "description": "Small alarm clock ticking."
+  },
+  "T10": {
+   "code": "T10C",
+   "file": "T_TEXTURES/T10_Keyboard-writing/T10C_hermes-typewriter.wav",
+   "lock": "onset (series: each hit is an element)",
+   "description": "Hermes typewriter."
+  },
+  "T12": {
+   "code": "T12A",
+   "file": "T_TEXTURES/T12_Success-reward/T12A_hotel-counter-bell.wav",
+   "lock": "onset",
+   "description": "Hotel counter bell."
+  },
+  "R01": {
+   "code": "R01B",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01B_aston-martin-accelerating.wav",
+   "lock": "peak",
+   "description": "Aston Martin accelerating."
+  },
+  "R04": {
+   "code": "R04B",
+   "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+   "lock": "peak",
+   "description": "Single heartbeat, dry."
+  }
+ },
+ "redo": [
+  "R02",
+  "R03",
+  "R05",
+  "R06",
+  "T04",
+  "T06",
+  "T07",
+  "T09",
+  "T11",
+  "T13",
+  "T14",
+  "W04",
+  "W06",
+  "W07",
+  "W08",
+  "W09",
+  "W10"
+ ]
+}

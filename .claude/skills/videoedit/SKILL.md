@@ -121,6 +121,8 @@ Use **at least two sharp bass risers and at least two metallic risers** across a
 
 If the loudest stack will clip, pull the hit down — never the voice.
 
+Real recordings (engines, wind, impacts) are full-spectrum and mask speech far more than tonal effects. After placing every pass, check each 100 ms of dialogue: effects must sit at least 6 dB under the voice while it talks. Duck the effects bus under the voice (fast attack, slow release, gain only goes down) rather than re-leveling every cue, and leave the per-family stems unducked so the editor can mix by hand.
+
 ### A4. Music
 
 Under the talking head only, at −19 dB; never under animations or graphics. Music is the last thing added, after all SFX passes are approved. Joseph supplies his own tracks — don't generate or pull stock music unless he asks for options to audition. Music is optional: the approved reference edit shipped with none. Ask rather than assume a bed is wanted.

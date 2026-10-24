@@ -348,6 +348,26 @@ def build_stems(cues, inv, lib_root, frames, fps):
         placed.append({**c, "start_frame": round(start_s * fps, 1)})
     return stems, placed, n
 
+def duck_under_voice(sfx, voice, margin_db=6.0, active_db=-40.0, attack=0.03, release=0.18):
+    """Voice is king: while the voice is active, pull the effects so they sit at least margin_db under it.
+    Gain only ever goes down, and only while the voice talks, so builds keep full level in the pauses."""
+    hop = int(0.01 * SR)
+    def env(x):
+        m = x.mean(0); k = len(m) // hop
+        e = np.sqrt(np.mean(m[: k * hop].reshape(k, hop) ** 2, axis=1))
+        e = np.convolve(e, np.ones(5) / 5, mode="same")
+        return 20 * np.log10(e + 1e-9)
+    ve, se = env(voice), env(sfx)
+    want = np.where(ve > active_db, np.minimum(0.0, (ve - margin_db) - se), 0.0)
+    g = np.zeros_like(want); a_c, r_c = math.exp(-0.01 / attack), math.exp(-0.01 / release)
+    for i in range(len(want)):  # fast to duck, slow to recover
+        prev = g[i - 1] if i else 0.0
+        c = a_c if want[i] < prev else r_c
+        g[i] = c * prev + (1 - c) * want[i]
+    gain = np.repeat(10 ** (g / 20), hop)
+    gain = np.pad(gain, (0, max(0, sfx.shape[1] - len(gain))), constant_values=1.0)[: sfx.shape[1]]
+    return sfx * gain
+
 def write_wav(path, x):
     with wave.open(path, "wb") as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
@@ -386,7 +406,9 @@ def main():
     mix = sum(stems.values())
     if a.voice:
         v = read_stereo(a.voice); vv = np.zeros((2, n), np.float32); vv[:, :min(n, v.shape[1])] = v[:, :n]
-        write_wav(os.path.join(a.out, "STEM_VOICE.wav"), vv); mix = mix + vv
+        write_wav(os.path.join(a.out, "STEM_VOICE.wav"), vv)
+        mix = duck_under_voice(mix, vv) + vv
+        write_wav(os.path.join(a.out, "SFX_DUCKED.wav"), mix - vv)
     peak = float(np.max(np.abs(mix)))
     if peak > 0.89:  # protect against clipping by pulling only the HITS stem, never the voice
         print(f"mix peak {20*math.log10(peak):.1f} dBFS: pulling HITS by 3 dB")

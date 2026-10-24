@@ -1,0 +1,267 @@
+{
+ "_note": "Cue sheet: real CC0 recordings from sfx-library-real (user picks). Timing unchanged from sfx_cues_final.json.",
+ "library_root": "../../sfx-library-real",
+ "cues": [
+  {
+   "id": "W01",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W05_Short-whoosh/W05D_arrow-through-the-air.wav",
+   "code": "W05D",
+   "sync": 7,
+   "db": -12,
+   "why": "hook rings slide apart, fastest f7 -> W05D Arrow through the air"
+  },
+  {
+   "id": "W02",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W05_Short-whoosh/W05D_arrow-through-the-air.wav",
+   "code": "W05D",
+   "sync": 107,
+   "db": -12,
+   "why": "snap zoom on 'ex's record' -> W05D Arrow through the air"
+  },
+  {
+   "id": "W03",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 136,
+   "db": -12,
+   "why": "'Your benefit' card slides up -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W04",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 146,
+   "db": -12,
+   "why": "'Your ex's benefit' card slides up -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W05",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "code": "W02A",
+   "sync": 224,
+   "db": -10,
+   "why": "circle wipe into the checklist -> W02A Wooden sheet swing"
+  },
+  {
+   "id": "W06",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 233,
+   "db": -12,
+   "why": "'Do you qualify?' title slides down -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W07",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 239,
+   "db": -12,
+   "why": "row 1 slides in -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W08",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 304,
+   "db": -12,
+   "why": "row 2 slides in -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W09",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 357,
+   "db": -12,
+   "why": "row 3 slides in -> W01B Metal tube swing, second take"
+  },
+  {
+   "id": "W10",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "code": "W02A",
+   "sync": 437,
+   "db": -12,
+   "why": "slow push-in on 'Check all three?' -> W02A Wooden sheet swing"
+  },
+  {
+   "id": "W11",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "code": "W02A",
+   "sync": 456,
+   "db": -10,
+   "why": "circle wipe back to Tom -> W02A Wooden sheet swing"
+  },
+  {
+   "id": "W12",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "code": "W02A",
+   "sync": 499,
+   "db": -12,
+   "why": "CTA card slides up: heavier move, sub rumble -> W02A Wooden sheet swing"
+  },
+  {
+   "id": "T01",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T05_Digital-camera-click/T05C_reflex-camera-shutter.wav",
+   "code": "T05C",
+   "sync": 133,
+   "db": -7,
+   "why": "hard cut to B-roll -> T05C Reflex camera shutter"
+  },
+  {
+   "id": "T02",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T01_Pop/T01A_champagne-cork.wav",
+   "code": "T01A",
+   "sync": 173,
+   "db": -6,
+   "why": "'No change' badge pops (state change) -> T01A Champagne cork"
+  },
+  {
+   "id": "T03",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T05_Digital-camera-click/T05C_reflex-camera-shutter.wav",
+   "code": "T05C",
+   "sync": 190,
+   "db": -7,
+   "why": "hard cut back to Tom -> T05C Reflex camera shutter"
+  },
+  {
+   "id": "T04",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "code": "T02A",
+   "sync": 207,
+   "db": -9,
+   "why": "dot 1 pops (sequence, kept quiet) -> T02A Mouse click"
+  },
+  {
+   "id": "T05",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "code": "T02A",
+   "sync": 211,
+   "db": -9,
+   "why": "dot 2 pops -> T02A Mouse click"
+  },
+  {
+   "id": "T06",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "code": "T02A",
+   "sync": 215,
+   "db": -9,
+   "why": "dot 3 pops -> T02A Mouse click"
+  },
+  {
+   "id": "T07",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 289,
+   "db": -6,
+   "why": "row 1 toggle on -> T03C Switch click"
+  },
+  {
+   "id": "T08",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 342,
+   "db": -6,
+   "why": "row 2 toggle on -> T03C Switch click"
+  },
+  {
+   "id": "T09",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 412,
+   "db": -6,
+   "why": "row 3 toggle on -> T03C Switch click"
+  },
+  {
+   "id": "T10",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T12_Success-reward/T12A_hotel-counter-bell.wav",
+   "code": "T12A",
+   "sync": 479,
+   "db": -7,
+   "why": "green check lands on 'may qualify' -> T12A Hotel counter bell"
+  },
+  {
+   "id": "T11",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T05_Digital-camera-click/T05C_reflex-camera-shutter.wav",
+   "code": "T05C",
+   "sync": 496,
+   "db": -7,
+   "why": "hard cut to the CTA -> T05C Reflex camera shutter"
+  },
+  {
+   "id": "T12",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "code": "T02A",
+   "sync": 518,
+   "db": -6,
+   "why": "CTA button pressed into place (diegetic press; wanted T02) -> T02A Mouse click"
+  },
+  {
+   "id": "R01",
+   "track": "RISERS",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01B_aston-martin-accelerating.wav",
+   "code": "R01B",
+   "sync": 222,
+   "db": -5,
+   "why": "build from hook into the checklist; peaks 2 frames before the wipe at f222, inside the f211-223 voice gap -> R01B Aston Martin accelerating"
+  },
+  {
+   "id": "R02",
+   "track": "RISERS",
+   "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01B_aston-martin-accelerating.wav",
+   "code": "R01B",
+   "sync": 454,
+   "db": -5,
+   "why": "build into 'You may qualify'; peaks 2 frames before the wipe at f460, inside the f456-466 voice gap -> R01B Aston Martin accelerating"
+  },
+  {
+   "id": "H01",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+   "code": "R04B",
+   "sync": 3,
+   "db": -8,
+   "why": "hook impact as the rings icon lands -> R04B Single heartbeat, dry"
+  },
+  {
+   "id": "H02",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+   "code": "R04B",
+   "sync": 224,
+   "db": -8,
+   "why": "lands R01 on the wipe -> R04B Single heartbeat, dry"
+  },
+  {
+   "id": "H03",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+   "code": "R04B",
+   "sync": 456,
+   "db": -7,
+   "why": "lands R02 on the wipe; the ad's loudest stack -> R04B Single heartbeat, dry"
+  }
+ ]
+}
