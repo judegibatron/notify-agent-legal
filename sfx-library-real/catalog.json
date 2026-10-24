@@ -1,0 +1,3450 @@
+[
+ {
+  "code": "W01A",
+  "type_code": "W01",
+  "type": "Hollow whoosh",
+  "use": "Standard slides and pans.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "metal-tube-swing",
+  "description": "Metal tube swing.",
+  "file": "W_WHOOSHES/W01_Hollow-whoosh/W01A_metal-tube-swing.wav",
+  "duration_s": 0.37,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1800",
+   "title": "Whoosh #7",
+   "url": "https://bigsoundbank.com/whoosh-7-s1800.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a metal tube.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.185-0.555 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W01B",
+  "type_code": "W01",
+  "type": "Hollow whoosh",
+  "use": "Standard slides and pans.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "metal-tube-swing-second-take",
+  "description": "Metal tube swing, second take.",
+  "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+  "duration_s": 0.41,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1801",
+   "title": "Whoosh #8",
+   "url": "https://bigsoundbank.com/whoosh-8-s1801.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a metal tube.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.205-0.615 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W01C",
+  "type_code": "W01",
+  "type": "Hollow whoosh",
+  "use": "Standard slides and pans.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "long-rope-swing",
+  "description": "Long rope swing.",
+  "file": "W_WHOOSHES/W01_Hollow-whoosh/W01C_long-rope-swing.wav",
+  "duration_s": 0.38,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1795",
+   "title": "Whoosh #3",
+   "url": "https://bigsoundbank.com/whoosh-3-s1795.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a long rope.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.19-0.57 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W01D",
+  "type_code": "W01",
+  "type": "Hollow whoosh",
+  "use": "Standard slides and pans.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "long-rope-swing-second-take",
+  "description": "Long rope swing, second take.",
+  "file": "W_WHOOSHES/W01_Hollow-whoosh/W01D_long-rope-swing-second-take.wav",
+  "duration_s": 0.46,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1796",
+   "title": "Whoosh #4",
+   "url": "https://bigsoundbank.com/whoosh-4-s1796.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a long rope.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.18-0.64 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W02A",
+  "type_code": "W02",
+  "type": "Deep voice whoosh",
+  "use": "Default for most animations (heavier, deeper swings).",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "wooden-sheet-swing",
+  "description": "Wooden sheet swing.",
+  "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+  "duration_s": 0.3,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1799",
+   "title": "Whoosh #6",
+   "url": "https://bigsoundbank.com/whoosh-6-s1799.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a wooden sheet.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.125-0.425 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W02B",
+  "type_code": "W02",
+  "type": "Deep voice whoosh",
+  "use": "Default for most animations (heavier, deeper swings).",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "wooden-sheet-swing-second-take",
+  "description": "Wooden sheet swing, second take.",
+  "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02B_wooden-sheet-swing-second-take.wav",
+  "duration_s": 0.3,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1802",
+   "title": "Whoosh #9",
+   "url": "https://bigsoundbank.com/whoosh-9-s1802.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a wooden sheet.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.075-0.375 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W02C",
+  "type_code": "W02",
+  "type": "Deep voice whoosh",
+  "use": "Default for most animations (heavier, deeper swings).",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "heavy-cloth-swish",
+  "description": "Heavy cloth swish.",
+  "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02C_heavy-cloth-swish.wav",
+  "duration_s": 0.565,
+  "lock": "peak",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "cloth1.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.015-0.58 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W02D",
+  "type_code": "W02",
+  "type": "Deep voice whoosh",
+  "use": "Default for most animations (heavier, deeper swings).",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "rope-sliding",
+  "description": "Rope sliding.",
+  "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02D_rope-sliding.wav",
+  "duration_s": 1.16,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1818",
+   "title": "Sliding rope #1",
+   "url": "https://bigsoundbank.com/sliding-rope-1-s1818.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Slipping a rope.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.05-1.21 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W03A",
+  "type_code": "W03",
+  "type": "Futuristic whoosh",
+  "use": "Textured, edgy slides (natural stand-in: blades and whips).",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "sword-cutting-the-air",
+  "description": "Sword cutting the air.",
+  "file": "W_WHOOSHES/W03_Futuristic-whoosh/W03A_sword-cutting-the-air.wav",
+  "duration_s": 0.215,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0572",
+   "title": "Whoosh #1",
+   "url": "https://bigsoundbank.com/whoosh-1-s0572.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh of a sword that cuts through the air. Learn how to make this sound effects: https://lasonotheque.org/dossiers/techniques-bruitage-f112.html#22",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.095-0.31 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W03B",
+  "type_code": "W03",
+  "type": "Futuristic whoosh",
+  "use": "Textured, edgy slides (natural stand-in: blades and whips).",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "whip-crack",
+  "description": "Whip crack.",
+  "file": "W_WHOOSHES/W03_Futuristic-whoosh/W03B_whip-crack.wav",
+  "duration_s": 0.265,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2949",
+   "title": "Whip crack #1",
+   "url": "https://bigsoundbank.com/whip-crack-1-s2949.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A crack of the whip.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.185-0.45 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W03C",
+  "type_code": "W03",
+  "type": "Futuristic whoosh",
+  "use": "Textured, edgy slides (natural stand-in: blades and whips).",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "sword-cut",
+  "description": "Sword cut.",
+  "file": "W_WHOOSHES/W03_Futuristic-whoosh/W03C_sword-cut.wav",
+  "duration_s": 0.62,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0127",
+   "title": "Sword That Cuts",
+   "url": "https://bigsoundbank.com/sword-that-cuts-s0127.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a sword cutting something soft. Learn to make your own sound effects of swords https://lasonotheque.org/dossiers/techniques-bruitage-f112.html#22",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.03-0.65 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W03D",
+  "type_code": "W03",
+  "type": "Futuristic whoosh",
+  "use": "Textured, edgy slides (natural stand-in: blades and whips).",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "knife-drawn",
+  "description": "Knife drawn.",
+  "file": "W_WHOOSHES/W03_Futuristic-whoosh/W03D_knife-drawn.wav",
+  "duration_s": 0.265,
+  "lock": "peak",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "drawKnife1.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.05-0.315 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W04A",
+  "type_code": "W04",
+  "type": "Organic wind whoosh",
+  "use": "Slow, methodical moves and drifts.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "foley-wind",
+  "description": "Foley wind.",
+  "file": "W_WHOOSHES/W04_Organic-wind-whoosh/W04A_foley-wind.wav",
+  "duration_s": 1.6,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0595",
+   "title": "Wind",
+   "url": "https://bigsoundbank.com/wind-s0595.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Wind noise, made with a technique Foley: https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 68.02-69.62 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W04B",
+  "type_code": "W04",
+  "type": "Organic wind whoosh",
+  "use": "Slow, methodical moves and drifts.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "wind-in-tall-grass",
+  "description": "Wind in tall grass.",
+  "file": "W_WHOOSHES/W04_Organic-wind-whoosh/W04B_wind-in-tall-grass.wav",
+  "duration_s": 1.6,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0908",
+   "title": "Wind in Tall Grass",
+   "url": "https://bigsoundbank.com/wind-in-tall-grass-s0908.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of wind in the tall grass of a field.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 8.06-9.66 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W04C",
+  "type_code": "W04",
+  "type": "Organic wind whoosh",
+  "use": "Slow, methodical moves and drifts.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "wind-whistling-through-a-window",
+  "description": "Wind whistling through a window.",
+  "file": "W_WHOOSHES/W04_Organic-wind-whoosh/W04C_wind-whistling-through-a-window.wav",
+  "duration_s": 1.6,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0147",
+   "title": "Whistling of the Wind #1",
+   "url": "https://bigsoundbank.com/whistling-of-the-wind-1-s0147.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Slight hiss of the wind. Inside a house through a window is not closed. Wind outside. Learn to imitate the sound of the wind https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 55.34-56.94 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W04D",
+  "type_code": "W04",
+  "type": "Organic wind whoosh",
+  "use": "Slow, methodical moves and drifts.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "strong-wind-indoors",
+  "description": "Strong wind, indoors.",
+  "file": "W_WHOOSHES/W04_Organic-wind-whoosh/W04D_strong-wind-indoors.wav",
+  "duration_s": 1.6,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0153",
+   "title": "Strong wind #3",
+   "url": "https://bigsoundbank.com/strong-wind-3-s0153.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Strong wind from the interior of a house. Small cracks and bumps. Learn to imitate the sound of the wind https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 11.92-13.52 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W05A",
+  "type_code": "W05",
+  "type": "Short whoosh",
+  "use": "Very quick, small moves.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "wooden-stick-swing",
+  "description": "Wooden stick swing.",
+  "file": "W_WHOOSHES/W05_Short-whoosh/W05A_wooden-stick-swing.wav",
+  "duration_s": 0.19,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1797",
+   "title": "Whoosh #5",
+   "url": "https://bigsoundbank.com/whoosh-5-s1797.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a long wooden stick.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.18-0.37 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W05B",
+  "type_code": "W05",
+  "type": "Short whoosh",
+  "use": "Very quick, small moves.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "bamboo-stick-swing",
+  "description": "Bamboo stick swing.",
+  "file": "W_WHOOSHES/W05_Short-whoosh/W05B_bamboo-stick-swing.wav",
+  "duration_s": 0.27,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1798",
+   "title": "Whoosh #10",
+   "url": "https://bigsoundbank.com/whoosh-10-s1798.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh made with a large bamboo stick.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.16-0.43 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W05C",
+  "type_code": "W05",
+  "type": "Short whoosh",
+  "use": "Very quick, small moves.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "sword-through-the-air",
+  "description": "Sword through the air.",
+  "file": "W_WHOOSHES/W05_Short-whoosh/W05C_sword-through-the-air.wav",
+  "duration_s": 0.415,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0128",
+   "title": "Sword Through the Air",
+   "url": "https://bigsoundbank.com/sword-through-the-air-s0128.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a sword that cuts through the air. Learn to make your own sound effects of swords https://lasonotheque.org/dossiers/techniques-bruitage-f112.html#22",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-0.415 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W05D",
+  "type_code": "W05",
+  "type": "Short whoosh",
+  "use": "Very quick, small moves.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "arrow-through-the-air",
+  "description": "Arrow through the air.",
+  "file": "W_WHOOSHES/W05_Short-whoosh/W05D_arrow-through-the-air.wav",
+  "duration_s": 0.16,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0573",
+   "title": "Whoosh #2",
+   "url": "https://bigsoundbank.com/whoosh-2-s0573.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whoosh of a sword or an arrow through the air. Learn how to make this sound effects: https://lasonotheque.org/dossiers/techniques-bruitage-f112.html#22",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 2.51-2.67 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W06A",
+  "type_code": "W06",
+  "type": "Generic long whoosh",
+  "use": "Slow build into a quick transition.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "strong-wind-gust-building",
+  "description": "Strong wind gust building.",
+  "file": "W_WHOOSHES/W06_Generic-long-whoosh/W06A_strong-wind-gust-building.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0146",
+   "title": "Strong Wind #1",
+   "url": "https://bigsoundbank.com/strong-wind-1-s0146.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Strong wind in a tree and a patch of jail. Noise needles of a pine tree, a bird cries, wind variable. Learn to imitate the sound of the wind https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 49.5-51.5 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W06B",
+  "type_code": "W06",
+  "type": "Generic long whoosh",
+  "use": "Slow build into a quick transition.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "strong-wind-gust-building",
+  "description": "Strong wind gust building.",
+  "file": "W_WHOOSHES/W06_Generic-long-whoosh/W06B_strong-wind-gust-building.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0154",
+   "title": "Strong wind #4",
+   "url": "https://bigsoundbank.com/strong-wind-4-s0154.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Strong wind outside. Small crackling, tree leaves and shocks. Learn to imitate the sound of the wind https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 9.32-11.32 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W06C",
+  "type_code": "W06",
+  "type": "Generic long whoosh",
+  "use": "Slow build into a quick transition.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "flag-building-in-the-wind",
+  "description": "Flag building in the wind.",
+  "file": "W_WHOOSHES/W06_Generic-long-whoosh/W06C_flag-building-in-the-wind.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1632",
+   "title": "Flag in the wind #1",
+   "url": "https://bigsoundbank.com/flag-in-the-wind-1-s1632.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a flag flying in the wind. Noise in the hands, with a fabric.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 24.5-26.5 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W06D",
+  "type_code": "W06",
+  "type": "Generic long whoosh",
+  "use": "Slow build into a quick transition.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "straw-broom-sweep",
+  "description": "Straw broom sweep.",
+  "file": "W_WHOOSHES/W06_Generic-long-whoosh/W06D_straw-broom-sweep.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0163",
+   "title": "Straw broom",
+   "url": "https://bigsoundbank.com/straw-broom-s0163.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Someone who spends a straw broom.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 2.8-4.8 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W07A",
+  "type_code": "W07",
+  "type": "Synthetic whoosh",
+  "use": "Scene-to-scene transitions (natural stand-in: sport swings).",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "golf-swing-wooden-club",
+  "description": "Golf swing, wooden club.",
+  "file": "W_WHOOSHES/W07_Synthetic-whoosh/W07A_golf-swing-wooden-club.wav",
+  "duration_s": 0.3,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0455",
+   "title": "Golf swing, with a wooden club",
+   "url": "https://bigsoundbank.com/golf-swing-with-a-wooden-club-s0455.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Recorded for the needs of a film: a golf swing performed with a wooden club (basically the expected sound).",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 6.735-7.035 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W07B",
+  "type_code": "W07",
+  "type": "Synthetic whoosh",
+  "use": "Scene-to-scene transitions (natural stand-in: sport swings).",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "badminton-racket",
+  "description": "Badminton racket.",
+  "file": "W_WHOOSHES/W07_Synthetic-whoosh/W07B_badminton-racket.wav",
+  "duration_s": 0.275,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0537",
+   "title": "Badminton: racket shuttlecock",
+   "url": "https://bigsoundbank.com/badminton-racket-shuttlecock-s0537.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "4 racket hits on a badminton shuttlecock.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 8.435-8.71 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W07C",
+  "type_code": "W07",
+  "type": "Synthetic whoosh",
+  "use": "Scene-to-scene transitions (natural stand-in: sport swings).",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "nylon-flag-snap",
+  "description": "Nylon flag snap.",
+  "file": "W_WHOOSHES/W07_Synthetic-whoosh/W07C_nylon-flag-snap.wav",
+  "duration_s": 0.65,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1787",
+   "title": "Flag #1",
+   "url": "https://bigsoundbank.com/flag-1-s1787.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Shaken nylon flag.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.205-0.855 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W07D",
+  "type_code": "W07",
+  "type": "Synthetic whoosh",
+  "use": "Scene-to-scene transitions (natural stand-in: sport swings).",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "nylon-flag-snap-second-take",
+  "description": "Nylon flag snap, second take.",
+  "file": "W_WHOOSHES/W07_Synthetic-whoosh/W07D_nylon-flag-snap-second-take.wav",
+  "duration_s": 1.5,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1789",
+   "title": "Flag #3",
+   "url": "https://bigsoundbank.com/flag-3-s1789.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Shaken nylon flag.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.34-1.84 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W08A",
+  "type_code": "W08",
+  "type": "Transition spacey whoosh",
+  "use": "Airy scene transitions.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "wind-whistling-in-a-chimney",
+  "description": "Wind whistling in a chimney.",
+  "file": "W_WHOOSHES/W08_Transition-spacey-whoosh/W08A_wind-whistling-in-a-chimney.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0155",
+   "title": "Whistling of the Wind #2",
+   "url": "https://bigsoundbank.com/whistling-of-the-wind-2-s0155.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Whistling of the wind in the chimney off. Learn to imitate the sound of the wind: https://www.libertivi.com/lelabodubruiteur_122",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 24.18-26.18 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W08B",
+  "type_code": "W08",
+  "type": "Transition spacey whoosh",
+  "use": "Airy scene transitions.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "chimney-pipe-cooling",
+  "description": "Chimney pipe cooling.",
+  "file": "W_WHOOSHES/W08_Transition-spacey-whoosh/W08B_chimney-pipe-cooling.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1161",
+   "title": "Chimney of smoke that cools",
+   "url": "https://bigsoundbank.com/chimney-of-smoke-that-cools-s1161.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Chimney pipe that cools quickly after closing the smoke damper of a wood-fired boiler.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 5.04-7.04 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W08C",
+  "type_code": "W08",
+  "type": "Transition spacey whoosh",
+  "use": "Airy scene transitions.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "air-leak",
+  "description": "Air leak.",
+  "file": "W_WHOOSHES/W08_Transition-spacey-whoosh/W08C_air-leak.wav",
+  "duration_s": 1.5,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1486",
+   "title": "Air leak",
+   "url": "https://bigsoundbank.com/air-leak-s1486.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Air leak as in a tire puncture.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.08-1.58 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W08D",
+  "type_code": "W08",
+  "type": "Transition spacey whoosh",
+  "use": "Airy scene transitions.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "chimes-in-the-wind",
+  "description": "Chimes in the wind.",
+  "file": "W_WHOOSHES/W08_Transition-spacey-whoosh/W08D_chimes-in-the-wind.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2687",
+   "title": "Cluster Chimes #1",
+   "url": "https://bigsoundbank.com/cluster-chimes-1-s2687.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "The sound of chimes in the wind.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 175.18-177.18 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W09A",
+  "type_code": "W09",
+  "type": "Water dropper",
+  "use": "Light, liquid scene switches.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "water-drop",
+  "description": "Water drop.",
+  "file": "W_WHOOSHES/W09_Water-dropper/W09A_water-drop.wav",
+  "duration_s": 0.235,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1384",
+   "title": "Drops of water #1",
+   "url": "https://bigsoundbank.com/drops-of-water-1-s1384.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Many drops of water.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 11.62-11.855 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W09B",
+  "type_code": "W09",
+  "type": "Water dropper",
+  "use": "Light, liquid scene switches.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "water-drop-second-set",
+  "description": "Water drop, second set.",
+  "file": "W_WHOOSHES/W09_Water-dropper/W09B_water-drop-second-set.wav",
+  "duration_s": 0.37,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1386",
+   "title": "Drops of Water #3",
+   "url": "https://bigsoundbank.com/drops-of-water-3-s1386.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Many drops of water.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 7.39-7.76 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W09C",
+  "type_code": "W09",
+  "type": "Water dropper",
+  "use": "Light, liquid scene switches.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "water-bubble-straw-in-a-tub",
+  "description": "Water bubble (straw in a tub).",
+  "file": "W_WHOOSHES/W09_Water-dropper/W09C_water-bubble-straw-in-a-tub.wav",
+  "duration_s": 1.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0183",
+   "title": "Water Bubble #2",
+   "url": "https://bigsoundbank.com/water-bubble-2-s0183.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Water bubbles made with a straw in a tub.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 6.555-7.555 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W09D",
+  "type_code": "W09",
+  "type": "Water dropper",
+  "use": "Light, liquid scene switches.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "bubble-burst-mouth",
+  "description": "Bubble burst (mouth).",
+  "file": "W_WHOOSHES/W09_Water-dropper/W09D_bubble-burst-mouth.wav",
+  "duration_s": 0.05,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1074",
+   "title": "Bubbles Burst",
+   "url": "https://bigsoundbank.com/bubbles-burst-s1074.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "31 bubbles bursting. Sound effect made with the mouth.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 19.235-19.285 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W10A",
+  "type_code": "W10",
+  "type": "Classy airy whoosh",
+  "use": "Large, weighty moves.",
+  "category": "Whooshes",
+  "letter": "A",
+  "slug": "nylon-flag-shake",
+  "description": "Nylon flag shake.",
+  "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10A_nylon-flag-shake.wav",
+  "duration_s": 0.435,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1788",
+   "title": "Flag #2",
+   "url": "https://bigsoundbank.com/flag-2-s1788.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Shaken nylon flag.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.085-0.52 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W10B",
+  "type_code": "W10",
+  "type": "Classy airy whoosh",
+  "use": "Large, weighty moves.",
+  "category": "Whooshes",
+  "letter": "B",
+  "slug": "nylon-flag-shake-second-take",
+  "description": "Nylon flag shake, second take.",
+  "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10B_nylon-flag-shake-second-take.wav",
+  "duration_s": 0.755,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1790",
+   "title": "Flag #4",
+   "url": "https://bigsoundbank.com/flag-4-s1790.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Shaken nylon flag.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.195-0.95 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W10C",
+  "type_code": "W10",
+  "type": "Classy airy whoosh",
+  "use": "Large, weighty moves.",
+  "category": "Whooshes",
+  "letter": "C",
+  "slug": "nylon-flag-shake-third-take",
+  "description": "Nylon flag shake, third take.",
+  "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10C_nylon-flag-shake-third-take.wav",
+  "duration_s": 0.99,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1792",
+   "title": "Flag #6",
+   "url": "https://bigsoundbank.com/flag-6-s1792.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Shaken nylon flag.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.185-1.175 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "W10D",
+  "type_code": "W10",
+  "type": "Classy airy whoosh",
+  "use": "Large, weighty moves.",
+  "category": "Whooshes",
+  "letter": "D",
+  "slug": "cloth-movement",
+  "description": "Cloth movement.",
+  "file": "W_WHOOSHES/W10_Classy-airy-whoosh/W10D_cloth-movement.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0013",
+   "title": "Cloth",
+   "url": "https://bigsoundbank.com/cloth-s0013.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Cloth: Short tear (x2), tearing along (x2).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 3.1-5.1 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T01A",
+  "type_code": "T01",
+  "type": "Pop",
+  "use": "Text pops up.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "champagne-cork",
+  "description": "Champagne cork.",
+  "file": "T_TEXTURES/T01_Pop/T01A_champagne-cork.wav",
+  "duration_s": 0.135,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0211",
+   "title": "Champagne Cork #1",
+   "url": "https://bigsoundbank.com/champagne-cork-s0211.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Champagne cork jumping (x2).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.005-0.14 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T01B",
+  "type_code": "T01",
+  "type": "Pop",
+  "use": "Text pops up.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "champagne-cork-second-bottle",
+  "description": "Champagne cork, second bottle.",
+  "file": "T_TEXTURES/T01_Pop/T01B_champagne-cork-second-bottle.wav",
+  "duration_s": 0.155,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0648",
+   "title": "Champagne cork #2",
+   "url": "https://bigsoundbank.com/champagne-cork-2-s0648.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Champagne cork that pops.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.24-0.395 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T01C",
+  "type_code": "T01",
+  "type": "Pop",
+  "use": "Text pops up.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "balloon-burst",
+  "description": "Balloon burst.",
+  "file": "T_TEXTURES/T01_Pop/T01C_balloon-burst.wav",
+  "duration_s": 0.22,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0551",
+   "title": "Balloon: burst",
+   "url": "https://bigsoundbank.com/balloon-burst-s0551.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "3 balloons bursting.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.72-0.94 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T01D",
+  "type_code": "T01",
+  "type": "Pop",
+  "use": "Text pops up.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "bubble-wrap-pop",
+  "description": "Bubble wrap pop.",
+  "file": "T_TEXTURES/T01_Pop/T01D_bubble-wrap-pop.wav",
+  "duration_s": 0.15,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0462",
+   "title": "Bubble wrap: Breakouts",
+   "url": "https://bigsoundbank.com/bubble-wrap-breakouts-s0462.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Breakouts of a bubble of bubble wrap (x7). This is a paper of large bubbles of 2.5 cm in diameter.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 1.565-1.715 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T02A",
+  "type_code": "T02",
+  "type": "UI click",
+  "use": "UI element pops up.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "mouse-click",
+  "description": "Mouse click.",
+  "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+  "duration_s": 0.2,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1735",
+   "title": "Raspberry Mouse, Single Click",
+   "url": "https://bigsoundbank.com/raspberry-mouse-single-click-s1735.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A simple click of the Raspberry Pi computer mouse.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.105-0.305 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T02B",
+  "type_code": "T02",
+  "type": "UI click",
+  "use": "UI element pops up.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "apple-magic-mouse-click",
+  "description": "Apple Magic Mouse click.",
+  "file": "T_TEXTURES/T02_UI-click/T02B_apple-magic-mouse-click.wav",
+  "duration_s": 0.085,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1742",
+   "title": "Apple Magic Mouse, Single Click",
+   "url": "https://bigsoundbank.com/apple-magic-mouse-single-click-s1742.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A simple click on the \"Magic Mouse\" from Apple.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.225-0.31 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T02C",
+  "type_code": "T02",
+  "type": "UI click",
+  "use": "UI element pops up.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "macbook-pro-trackpad-click",
+  "description": "MacBook Pro trackpad click.",
+  "file": "T_TEXTURES/T02_UI-click/T02C_macbook-pro-trackpad-click.wav",
+  "duration_s": 0.195,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1738",
+   "title": "MacBook Pro trackpad, single click",
+   "url": "https://bigsoundbank.com/macbook-pro-trackpad-single-click-s1738.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A single click on the trackpad, or touchpad, of the Apple MacBook Pro.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.105-0.3 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T02D",
+  "type_code": "T02",
+  "type": "UI click",
+  "use": "UI element pops up.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "ballpoint-pen-click",
+  "description": "Ballpoint pen click.",
+  "file": "T_TEXTURES/T02_UI-click/T02D_ballpoint-pen-click.wav",
+  "duration_s": 0.25,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0613",
+   "title": "Pen click",
+   "url": "https://bigsoundbank.com/pen-click-s0613.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Click of a ballpoint pen.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 10.165-10.415 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T03A",
+  "type_code": "T03",
+  "type": "Sci-fi click",
+  "use": "Something changes inside an animation (natural stand-in: switches).",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "home-light-switch",
+  "description": "Home light switch.",
+  "file": "T_TEXTURES/T03_Sci-fi-click/T03A_home-light-switch.wav",
+  "duration_s": 0.1,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0026",
+   "title": "Electric switch",
+   "url": "https://bigsoundbank.com/electric-switch-s0026.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Home switch: ON and OFF (x2).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 1.87-1.97 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T03B",
+  "type_code": "T03",
+  "type": "Sci-fi click",
+  "use": "Something changes inside an animation (natural stand-in: switches).",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "desk-lamp-switch",
+  "description": "Desk lamp switch.",
+  "file": "T_TEXTURES/T03_Sci-fi-click/T03B_desk-lamp-switch.wav",
+  "duration_s": 0.21,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0036",
+   "title": "Switch desk lamp",
+   "url": "https://bigsoundbank.com/switch-desk-lamp-s0036.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Switch desk lamp.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 3.37-3.58 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T03C",
+  "type_code": "T03",
+  "type": "Sci-fi click",
+  "use": "Something changes inside an animation (natural stand-in: switches).",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "switch-click",
+  "description": "Switch click.",
+  "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+  "duration_s": 0.115,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0321",
+   "title": "Switch #5",
+   "url": "https://bigsoundbank.com/switch-5-s0321.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Series of switch clicks (x5).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 2.315-2.43 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T03D",
+  "type_code": "T03",
+  "type": "Sci-fi click",
+  "use": "Something changes inside an animation (natural stand-in: switches).",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "old-light-switch",
+  "description": "Old light switch.",
+  "file": "T_TEXTURES/T03_Sci-fi-click/T03D_old-light-switch.wav",
+  "duration_s": 0.14,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0540",
+   "title": "Old switch",
+   "url": "https://bigsoundbank.com/old-switch-s0540.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Handling an old light switch.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 3.08-3.22 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T04A",
+  "type_code": "T04",
+  "type": "Sci-fi impact",
+  "use": "A new UI or object is revealed (natural stand-in: hits).",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "punch",
+  "description": "Punch.",
+  "file": "T_TEXTURES/T04_Sci-fi-impact/T04A_punch.wav",
+  "duration_s": 0.355,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2460",
+   "title": "Punch #5",
+   "url": "https://bigsoundbank.com/punch-5-s2460.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Punch. Thanks to Kellian F. and Yoann B.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.06-0.415 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T04B",
+  "type_code": "T04",
+  "type": "Sci-fi impact",
+  "use": "A new UI or object is revealed (natural stand-in: hits).",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "body-fall-on-tiles",
+  "description": "Body fall on tiles.",
+  "file": "T_TEXTURES/T04_Sci-fi-impact/T04B_body-fall-on-tiles.wav",
+  "duration_s": 1.08,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2452",
+   "title": "Body Fall #1",
+   "url": "https://bigsoundbank.com/body-fall-1-s2452.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A man falling on a tiled floor, indoors. Thanks to Kellian F. and Yoann B.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.035-1.115 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T04C",
+  "type_code": "T04",
+  "type": "Sci-fi impact",
+  "use": "A new UI or object is revealed (natural stand-in: hits).",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "heavy-punch",
+  "description": "Heavy punch.",
+  "file": "T_TEXTURES/T04_Sci-fi-impact/T04C_heavy-punch.wav",
+  "duration_s": 0.495,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "impact-sounds",
+   "file": "impactPunch_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.495 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T04D",
+  "type_code": "T04",
+  "type": "Sci-fi impact",
+  "use": "A new UI or object is revealed (natural stand-in: hits).",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "heavy-metal-plate-hit",
+  "description": "Heavy metal plate hit.",
+  "file": "T_TEXTURES/T04_Sci-fi-impact/T04D_heavy-metal-plate-hit.wav",
+  "duration_s": 0.38,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "impact-sounds",
+   "file": "impactPlate_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.38 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T05A",
+  "type_code": "T05",
+  "type": "Digital camera click",
+  "use": "Clip-to-clip cut or flash.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "nikon-d70s-shutter",
+  "description": "Nikon D70s shutter.",
+  "file": "T_TEXTURES/T05_Digital-camera-click/T05A_nikon-d70s-shutter.wav",
+  "duration_s": 0.365,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2394",
+   "title": "Trigger of Camera #1",
+   "url": "https://bigsoundbank.com/trigger-of-camera-1-s2394.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Trigger camera SLR type (Nikon D70S). Standard noise.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-0.365 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T05B",
+  "type_code": "T05",
+  "type": "Digital camera click",
+  "use": "Clip-to-clip cut or flash.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "nikon-d70s-shutter-second-take",
+  "description": "Nikon D70s shutter, second take.",
+  "file": "T_TEXTURES/T05_Digital-camera-click/T05B_nikon-d70s-shutter-second-take.wav",
+  "duration_s": 0.38,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2395",
+   "title": "Trigger of camera #2",
+   "url": "https://bigsoundbank.com/trigger-of-camera-2-s2395.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Trigger camera SLR type (Nikon D70S). Standard noise.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-0.38 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T05C",
+  "type_code": "T05",
+  "type": "Digital camera click",
+  "use": "Clip-to-clip cut or flash.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "reflex-camera-shutter",
+  "description": "Reflex camera shutter.",
+  "file": "T_TEXTURES/T05_Digital-camera-click/T05C_reflex-camera-shutter.wav",
+  "duration_s": 0.345,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0307",
+   "title": "Triggering camera",
+   "url": "https://bigsoundbank.com/triggering-camera-s0307.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Trigger a reflex camera. Noise standard.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.005-0.35 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T05D",
+  "type_code": "T05",
+  "type": "Digital camera click",
+  "use": "Clip-to-clip cut or flash.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "old-flash-camera",
+  "description": "Old flash camera.",
+  "file": "T_TEXTURES/T05_Digital-camera-click/T05D_old-flash-camera.wav",
+  "duration_s": 0.795,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "3022",
+   "title": "Old camera trigger",
+   "url": "https://bigsoundbank.com/old-camera-trigger-s3022.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Flash Fex with electric bulb. We hear the sound of the shutter and the slight crack of the bulb as well as photos.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.3-1.095 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T06A",
+  "type_code": "T06",
+  "type": "Analog button / cardboard",
+  "use": "Soft, satisfying checks and toggles.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "book-set-down",
+  "description": "Book set down.",
+  "file": "T_TEXTURES/T06_Analog-button-cardboard/T06A_book-set-down.wav",
+  "duration_s": 0.21,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "bookPlace1.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.21 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T06B",
+  "type_code": "T06",
+  "type": "Analog button / cardboard",
+  "use": "Soft, satisfying checks and toggles.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "book-closing",
+  "description": "Book closing.",
+  "file": "T_TEXTURES/T06_Analog-button-cardboard/T06B_book-closing.wav",
+  "duration_s": 0.18,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "bookClose.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.045-0.225 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T06C",
+  "type_code": "T06",
+  "type": "Analog button / cardboard",
+  "use": "Soft, satisfying checks and toggles.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "leather-drop",
+  "description": "Leather drop.",
+  "file": "T_TEXTURES/T06_Analog-button-cardboard/T06C_leather-drop.wav",
+  "duration_s": 0.31,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "dropLeather.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.31 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T06D",
+  "type_code": "T06",
+  "type": "Analog button / cardboard",
+  "use": "Soft, satisfying checks and toggles.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "book-closing-hardback",
+  "description": "Book closing, hardback.",
+  "file": "T_TEXTURES/T06_Analog-button-cardboard/T06D_book-closing-hardback.wav",
+  "duration_s": 0.105,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1410",
+   "title": "Closed book #1",
+   "url": "https://bigsoundbank.com/closed-book-1-s1410.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A book that closes.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.405-0.51 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T07A",
+  "type_code": "T07",
+  "type": "Mechanical click",
+  "use": "Mechanical pop-ups.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "lighter",
+  "description": "Lighter.",
+  "file": "T_TEXTURES/T07_Mechanical-click/T07A_lighter.wav",
+  "duration_s": 0.3,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0049",
+   "title": "Lighter",
+   "url": "https://bigsoundbank.com/lighter-s0049.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Lighter (x2).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 6.595-6.895 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T07B",
+  "type_code": "T07",
+  "type": "Mechanical click",
+  "use": "Mechanical pop-ups.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "door-lock-with-key",
+  "description": "Door lock with key.",
+  "file": "T_TEXTURES/T07_Mechanical-click/T07B_door-lock-with-key.wav",
+  "duration_s": 0.61,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0037",
+   "title": "Interior door lock",
+   "url": "https://bigsoundbank.com/interior-door-lock-s0037.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Locking a lightweight door with a key.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 1.865-2.475 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T07C",
+  "type_code": "T07",
+  "type": "Mechanical click",
+  "use": "Mechanical pop-ups.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "metal-click",
+  "description": "Metal click.",
+  "file": "T_TEXTURES/T07_Mechanical-click/T07C_metal-click.wav",
+  "duration_s": 0.375,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "metalClick.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.375 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T07D",
+  "type_code": "T07",
+  "type": "Mechanical click",
+  "use": "Mechanical pop-ups.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "metal-latch",
+  "description": "Metal latch.",
+  "file": "T_TEXTURES/T07_Mechanical-click/T07D_metal-latch.wav",
+  "duration_s": 0.2,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "rpg-audio",
+   "file": "metalLatch.ogg",
+   "url": "https://kenney.nl/assets/rpg-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.2 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T08A",
+  "type_code": "T08",
+  "type": "Gears / tiny gearwheel",
+  "use": "Letter-by-letter text.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "mechanical-alarm-clock-ticking",
+  "description": "Mechanical alarm clock ticking.",
+  "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08A_mechanical-alarm-clock-ticking.wav",
+  "duration_s": 1.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2816",
+   "title": "Tic Tac Mechanical Alarm Clock #5",
+   "url": "https://bigsoundbank.com/tic-tac-mechanical-alarm-clock-5-s2816.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Tic tac sound of a mechanical alarm clock . Easy to loop. This sound is part of the \" Museum of Lost Sounds \".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 23.04-24.04 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T08B",
+  "type_code": "T08",
+  "type": "Gears / tiny gearwheel",
+  "use": "Letter-by-letter text.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "small-alarm-clock-ticking",
+  "description": "Small alarm clock ticking.",
+  "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08B_small-alarm-clock-ticking.wav",
+  "duration_s": 1.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2656",
+   "title": "Tic Tac Mechanical Alarm Clock #3",
+   "url": "https://bigsoundbank.com/tic-tac-mechanical-alarm-clock-3-s2656.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Tic tac sound of a little mechanical alarm clock . Easy to loop. This sound is part of the \" Museum of Lost Sounds \".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 2.46-3.46 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T08C",
+  "type_code": "T08",
+  "type": "Gears / tiny gearwheel",
+  "use": "Letter-by-letter text.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "stopwatch-ticking",
+  "description": "Stopwatch ticking.",
+  "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08C_stopwatch-ticking.wav",
+  "duration_s": 1.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2138",
+   "title": "Chronograph #2",
+   "url": "https://bigsoundbank.com/stopwatch-2-s2138.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Two beats per second of a stopwatch. Easy to loop. This sound is part of the \" Museum of Lost Sounds \".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 8.12-9.12 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T08D",
+  "type_code": "T08",
+  "type": "Gears / tiny gearwheel",
+  "use": "Letter-by-letter text.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "single-clock-tick",
+  "description": "Single clock tick.",
+  "file": "T_TEXTURES/T08_Gears-tiny-gearwheel/T08D_single-clock-tick.wav",
+  "duration_s": 0.2,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0007",
+   "title": "Clock",
+   "url": "https://bigsoundbank.com/clock-s0007.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Clock: tick and tack (x9).",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 5.205-5.405 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T09A",
+  "type_code": "T09",
+  "type": "Complex mechanism gizmo",
+  "use": "Several assets popping in sequence.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "1903-car-starting-crank",
+  "description": "1903 car starting crank.",
+  "file": "T_TEXTURES/T09_Complex-mechanism-gizmo/T09A_1903-car-starting-crank.wav",
+  "duration_s": 1.5,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2545",
+   "title": "Starting crank",
+   "url": "https://bigsoundbank.com/starting-crank-s2545.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Crank starting of a 1903 De Dion-Bouton Type Q. This sound is part of the \" Museum of Lost Sounds \".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 3.85-5.35 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T09B",
+  "type_code": "T09",
+  "type": "Complex mechanism gizmo",
+  "use": "Several assets popping in sequence.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "toy-fishing-reel",
+  "description": "Toy fishing reel.",
+  "file": "T_TEXTURES/T09_Complex-mechanism-gizmo/T09B_toy-fishing-reel.wav",
+  "duration_s": 1.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0799",
+   "title": "Toy fishing rod reel #2",
+   "url": "https://bigsoundbank.com/toy-fishing-rod-reel-2-s0799.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a reel of plastic toy shaped fishing rod.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 29.76-30.76 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T09C",
+  "type_code": "T09",
+  "type": "Complex mechanism gizmo",
+  "use": "Several assets popping in sequence.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "poker-chips-stacking",
+  "description": "Poker chips stacking.",
+  "file": "T_TEXTURES/T09_Complex-mechanism-gizmo/T09C_poker-chips-stacking.wav",
+  "duration_s": 0.155,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "casino-audio",
+   "file": "chips-stack-1.ogg",
+   "url": "https://kenney.nl/assets/casino-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.065-0.22 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T09D",
+  "type_code": "T09",
+  "type": "Complex mechanism gizmo",
+  "use": "Several assets popping in sequence.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "dice-throw",
+  "description": "Dice throw.",
+  "file": "T_TEXTURES/T09_Complex-mechanism-gizmo/T09D_dice-throw.wav",
+  "duration_s": 0.295,
+  "lock": "onset",
+  "source": {
+   "site": "Kenney",
+   "pack": "casino-audio",
+   "file": "dice-throw-1.ogg",
+   "url": "https://kenney.nl/assets/casino-audio",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.015-0.31 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T10A",
+  "type_code": "T10",
+  "type": "Keyboard writing",
+  "use": "Typing on screen.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "quick-computer-typing",
+  "description": "Quick computer typing.",
+  "file": "T_TEXTURES/T10_Keyboard-writing/T10A_quick-computer-typing.wav",
+  "duration_s": 1.2,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1734",
+   "title": "Quick Keyboard",
+   "url": "https://bigsoundbank.com/quick-keyboard-s1734.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Quick noise from the keys of an computer keyboard.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 31.46-32.66 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T10B",
+  "type_code": "T10",
+  "type": "Keyboard writing",
+  "use": "Typing on screen.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "slow-computer-typing",
+  "description": "Slow computer typing.",
+  "file": "T_TEXTURES/T10_Keyboard-writing/T10B_slow-computer-typing.wav",
+  "duration_s": 1.2,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1733",
+   "title": "Slow Keyboard",
+   "url": "https://bigsoundbank.com/slow-keyboard-s1733.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Slow noise from the keys of an computer keyboard.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 8.4-9.6 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T10C",
+  "type_code": "T10",
+  "type": "Keyboard writing",
+  "use": "Typing on screen.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "hermes-typewriter",
+  "description": "Hermes typewriter.",
+  "file": "T_TEXTURES/T10_Keyboard-writing/T10C_hermes-typewriter.wav",
+  "duration_s": 1.2,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2841",
+   "title": "Typewriter #8",
+   "url": "https://bigsoundbank.com/typewriter-8-s2841.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "I write slowly on the typewriter. A \"Hermes Precisa 305\".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 2.56-3.76 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T10D",
+  "type_code": "T10",
+  "type": "Keyboard writing",
+  "use": "Typing on screen.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "single-typewriter-key",
+  "description": "Single typewriter key.",
+  "file": "T_TEXTURES/T10_Keyboard-writing/T10D_single-typewriter-key.wav",
+  "duration_s": 0.295,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2842",
+   "title": "Typewriter, Key",
+   "url": "https://bigsoundbank.com/typewriter-key-s2842.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A single typewriter key. A \"Hermes Precisa 305\".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.11-0.405 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T11A",
+  "type_code": "T11",
+  "type": "Activate energy",
+  "use": "Entry into a new animation (natural stand-in: electricity).",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "electric-shock-buzz",
+  "description": "Electric shock buzz.",
+  "file": "T_TEXTURES/T11_Activate-energy/T11A_electric-shock-buzz.wav",
+  "duration_s": 1.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0134",
+   "title": "Electric shock",
+   "url": "https://bigsoundbank.com/electric-shock-s0134.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Electrical shock that emits a speaker when plugged into the same circuit as other equipment that turns and turns off. Hears back, very light breath of the speaker itself.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 25.72-26.72 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T11B",
+  "type_code": "T11",
+  "type": "Activate energy",
+  "use": "Entry into a new animation (natural stand-in: electricity).",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "neon-or-transformer-hum",
+  "description": "Neon or transformer hum.",
+  "file": "T_TEXTURES/T11_Activate-energy/T11B_neon-or-transformer-hum.wav",
+  "duration_s": 1.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2118",
+   "title": "Neon or transformer #1",
+   "url": "https://bigsoundbank.com/neon-or-transformer-1-s2118.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Electric buzz from a neon or a transformer.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 7.06-8.06 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T11C",
+  "type_code": "T11",
+  "type": "Activate energy",
+  "use": "Entry into a new animation (natural stand-in: electricity).",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "circuit-breaker-tripping",
+  "description": "Circuit breaker tripping.",
+  "file": "T_TEXTURES/T11_Activate-energy/T11C_circuit-breaker-tripping.wav",
+  "duration_s": 0.14,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1092",
+   "title": "Electric circuit breaker",
+   "url": "https://bigsoundbank.com/electric-circuit-breaker-s1092.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "4 tripping and reclosing of an EDF or Enedis subscriber electrical connection circuit-breaker.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.28-0.42 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T11D",
+  "type_code": "T11",
+  "type": "Activate energy",
+  "use": "Entry into a new animation (natural stand-in: electricity).",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "electric-door-strike",
+  "description": "Electric door strike.",
+  "file": "T_TEXTURES/T11_Activate-energy/T11D_electric-door-strike.wav",
+  "duration_s": 0.56,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "3442",
+   "title": "Electric strike #1",
+   "url": "https://bigsoundbank.com/electric-strike-1-s3442.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "The buzzing sound of an electric lock when it is activated. To make it sound accurate, you should add the sound of the door of your choice opening.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.005-0.565 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T12A",
+  "type_code": "T12",
+  "type": "Success reward",
+  "use": "A conclusion is reached.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "hotel-counter-bell",
+  "description": "Hotel counter bell.",
+  "file": "T_TEXTURES/T12_Success-reward/T12A_hotel-counter-bell.wav",
+  "duration_s": 2.5,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2531",
+   "title": "Counter Bell #3",
+   "url": "https://bigsoundbank.com/counter-bell-3-s2531.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "An all-metal counter bell ringing, such as one finds in hotels or bars.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.115-2.615 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T12B",
+  "type_code": "T12",
+  "type": "Success reward",
+  "use": "A conclusion is reached.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "small-bell",
+  "description": "Small bell.",
+  "file": "T_TEXTURES/T12_Success-reward/T12B_small-bell.wav",
+  "duration_s": 2.5,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0292",
+   "title": "Small Bell #1",
+   "url": "https://bigsoundbank.com/small-bell-1-s0292.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Small bell.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.01-2.51 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T12C",
+  "type_code": "T12",
+  "type": "Success reward",
+  "use": "A conclusion is reached.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "dream-chimes",
+  "description": "Dream chimes.",
+  "file": "T_TEXTURES/T12_Success-reward/T12C_dream-chimes.wav",
+  "duration_s": 1.905,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2079",
+   "title": "Chimes \"Dream\" #1",
+   "url": "https://bigsoundbank.com/chimes-dream-1-s2079.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Cluster chimes of a dream hook.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.085-1.99 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T12D",
+  "type_code": "T12",
+  "type": "Success reward",
+  "use": "A conclusion is reached.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "two-wine-glasses-clinking",
+  "description": "Two wine glasses clinking.",
+  "file": "T_TEXTURES/T12_Success-reward/T12D_two-wine-glasses-clinking.wav",
+  "duration_s": 0.23,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1328",
+   "title": "Cheers, red wine glass #1",
+   "url": "https://bigsoundbank.com/cheers-red-wine-glass-1-s1328.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Two red-wine-glass that are shocking.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.015-0.245 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T13A",
+  "type_code": "T13",
+  "type": "Big reveal (choir)",
+  "use": "A big reveal (natural stand-in: bowls, chimes, cathedral).",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "tibetan-bowl-struck",
+  "description": "Tibetan bowl struck.",
+  "file": "T_TEXTURES/T13_Big-reveal-(choir)/T13A_tibetan-bowl-struck.wav",
+  "duration_s": 3.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1110",
+   "title": "Tibetan Bowl Struck #1",
+   "url": "https://bigsoundbank.com/tibetan-bowl-struck-s1110.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Hitting stick on a tibetan bowl that begins to sing.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.08-3.08 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T13B",
+  "type_code": "T13",
+  "type": "Big reveal (choir)",
+  "use": "A big reveal (natural stand-in: bowls, chimes, cathedral).",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "tibetan-bowl-struck-second-bowl",
+  "description": "Tibetan bowl struck, second bowl.",
+  "file": "T_TEXTURES/T13_Big-reveal-(choir)/T13B_tibetan-bowl-struck-second-bowl.wav",
+  "duration_s": 3.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2553",
+   "title": "Tibetan bowl struck #2",
+   "url": "https://bigsoundbank.com/tibetan-bowl-struck-2-s2553.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Hitting stick on a tibetan bowl that begins to sing.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-3.0 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T13C",
+  "type_code": "T13",
+  "type": "Big reveal (choir)",
+  "use": "A big reveal (natural stand-in: bowls, chimes, cathedral).",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "dream-chimes-cluster",
+  "description": "Dream chimes cluster.",
+  "file": "T_TEXTURES/T13_Big-reveal-(choir)/T13C_dream-chimes-cluster.wav",
+  "duration_s": 2.115,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2086",
+   "title": "Chimes \"Dream\" #8",
+   "url": "https://bigsoundbank.com/chimes-dream-8-s2086.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Cluster chimes of a dream hook.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.14-2.255 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T13D",
+  "type_code": "T13",
+  "type": "Big reveal (choir)",
+  "use": "A big reveal (natural stand-in: bowls, chimes, cathedral).",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "cathedral-voice-and-organ",
+  "description": "Cathedral voice and organ.",
+  "file": "T_TEXTURES/T13_Big-reveal-(choir)/T13D_cathedral-voice-and-organ.wav",
+  "duration_s": 3.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0598",
+   "title": "Cathedral: Voice and Organ",
+   "url": "https://bigsoundbank.com/cathedral-voice-and-organ-s0598.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "In the cathedral of Chartres (France). A person singing and someone playing the organ. Noise strollers and children.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 17.56-20.56 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T14A",
+  "type_code": "T14",
+  "type": "Alarm buzzer",
+  "use": "Low-volume tension.",
+  "category": "Textures",
+  "letter": "A",
+  "slug": "12-v-buzzer",
+  "description": "12 V buzzer.",
+  "file": "T_TEXTURES/T14_Alarm-buzzer/T14A_12-v-buzzer.wav",
+  "duration_s": 0.2,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1583",
+   "title": "Buzzer #1",
+   "url": "https://bigsoundbank.com/buzzer-1-s1583.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Noise of a small buzzer 12V.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.075-0.275 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T14B",
+  "type_code": "T14",
+  "type": "Alarm buzzer",
+  "use": "Low-volume tension.",
+  "category": "Textures",
+  "letter": "B",
+  "slug": "12-v-buzzer-second-take",
+  "description": "12 V buzzer, second take.",
+  "file": "T_TEXTURES/T14_Alarm-buzzer/T14B_12-v-buzzer-second-take.wav",
+  "duration_s": 0.2,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1584",
+   "title": "Buzzer #2",
+   "url": "https://bigsoundbank.com/buzzer-2-s1584.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Noise of a small buzzer 12V.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.08-0.28 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T14C",
+  "type_code": "T14",
+  "type": "Alarm buzzer",
+  "use": "Low-volume tension.",
+  "category": "Textures",
+  "letter": "C",
+  "slug": "walkie-talkie-buzzer-on-a-wooden-table",
+  "description": "Walkie-talkie buzzer on a wooden table.",
+  "file": "T_TEXTURES/T14_Alarm-buzzer/T14C_walkie-talkie-buzzer-on-a-wooden-table.wav",
+  "duration_s": 1.0,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0593",
+   "title": "Low frequency continuous buzzer",
+   "url": "https://bigsoundbank.com/low-frequency-continuous-buzzer-s0593.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Low frequency continuous buzzer. There is a buzzer of walkie talkie on a wooden table.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.14-1.14 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "T14D",
+  "type_code": "T14",
+  "type": "Alarm buzzer",
+  "use": "Low-volume tension.",
+  "category": "Textures",
+  "letter": "D",
+  "slug": "semi-mechanical-alarm",
+  "description": "Semi-mechanical alarm.",
+  "file": "T_TEXTURES/T14_Alarm-buzzer/T14D_semi-mechanical-alarm.wav",
+  "duration_s": 1.2,
+  "lock": "onset",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0172",
+   "title": "Alarm semi mechanical",
+   "url": "https://bigsoundbank.com/alarm-semi-mechanical-s0172.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Alarm signal electronics, mechanical mechanism. 3 level ringing, noise of the second hand before and after the alarm.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 39.46-40.66 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R01A",
+  "type_code": "R01",
+  "type": "Sharp bass riser",
+  "use": "~5 s after the hook (natural stand-in: engines building, thunder).",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "diesel-truck-accelerating",
+  "description": "Diesel truck accelerating.",
+  "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01A_diesel-truck-accelerating.wav",
+  "duration_s": 1.8,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1147",
+   "title": "Truck engine, big accelerations",
+   "url": "https://bigsoundbank.com/truck-engine-big-accelerations-s1147.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Small accelerations of Iveco Daily 3.0 40C14 HPI diesel engine.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 1.88-3.68 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R01B",
+  "type_code": "R01",
+  "type": "Sharp bass riser",
+  "use": "~5 s after the hook (natural stand-in: engines building, thunder).",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "aston-martin-accelerating",
+  "description": "Aston Martin accelerating.",
+  "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01B_aston-martin-accelerating.wav",
+  "duration_s": 1.8,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0600",
+   "title": "Acceleration Aston Martin",
+   "url": "https://bigsoundbank.com/acceleration-aston-martin-s0600.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Acceleration of an Aston Martin.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.7-2.5 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R01C",
+  "type_code": "R01",
+  "type": "Sharp bass riser",
+  "use": "~5 s after the hook (natural stand-in: engines building, thunder).",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "75-cc-motorcycle-accelerating",
+  "description": "75 cc motorcycle accelerating.",
+  "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01C_75-cc-motorcycle-accelerating.wav",
+  "duration_s": 1.8,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0603",
+   "title": "75 cm3 Motorcycle Acceleration",
+   "url": "https://bigsoundbank.com/75-cm3-motorcycle-acceleration-s0603.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Acceleration of a motorcycle 75 cm3. In the street.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 2.44-4.24 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R01D",
+  "type_code": "R01",
+  "type": "Sharp bass riser",
+  "use": "~5 s after the hook (natural stand-in: engines building, thunder).",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "thunder-rolling-in",
+  "description": "Thunder rolling in.",
+  "file": "R_RISERS-AND-HITS/R01_Sharp-bass-riser/R01D_thunder-rolling-in.wav",
+  "duration_s": 1.8,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "3114",
+   "title": "Thunder #3",
+   "url": "https://bigsoundbank.com/thunder-3-s3114.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A single thunderclap, without rain.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-1.8 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R02A",
+  "type_code": "R02",
+  "type": "Metallic riser",
+  "use": "Segment builds (singing bowl, and reversed real metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "tibetan-bowl-rubbed-until-it-sings",
+  "description": "Tibetan bowl rubbed until it sings.",
+  "file": "R_RISERS-AND-HITS/R02_Metallic-riser/R02A_tibetan-bowl-rubbed-until-it-sings.wav",
+  "duration_s": 1.8,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1109",
+   "title": "Tibetan bowl singing",
+   "url": "https://bigsoundbank.com/tibetan-bowl-singing-s1109.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Friction of the stick on a Tibetan bowl that begins to sing.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-1.8 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R02B",
+  "type_code": "R02",
+  "type": "Metallic riser",
+  "use": "Segment builds (singing bowl, and reversed real metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "tibetan-bowl-strike-reversed",
+  "description": "Tibetan bowl strike, reversed.",
+  "file": "R_RISERS-AND-HITS/R02_Metallic-riser/R02B_tibetan-bowl-strike-reversed.wav",
+  "duration_s": 2.2,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1110",
+   "title": "Tibetan Bowl Struck #1",
+   "url": "https://bigsoundbank.com/tibetan-bowl-struck-s1110.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Hitting stick on a tibetan bowl that begins to sing.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.08-2.28 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R02C",
+  "type_code": "R02",
+  "type": "Metallic riser",
+  "use": "Segment builds (singing bowl, and reversed real metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "finger-cymbals-reversed",
+  "description": "Finger cymbals, reversed.",
+  "file": "R_RISERS-AND-HITS/R02_Metallic-riser/R02C_finger-cymbals-reversed.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2274",
+   "title": "Finger Cymbals #1",
+   "url": "https://bigsoundbank.com/finger-cymbals-1-s2274.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Small finger cymbals.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.035-2.035 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R02D",
+  "type_code": "R02",
+  "type": "Metallic riser",
+  "use": "Segment builds (singing bowl, and reversed real metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "small-gong-reversed",
+  "description": "Small gong, reversed.",
+  "file": "R_RISERS-AND-HITS/R02_Metallic-riser/R02D_small-gong-reversed.wav",
+  "duration_s": 2.2,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1482",
+   "title": "Gong, sweet",
+   "url": "https://bigsoundbank.com/gong-sweet-s1482.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A soft shock of mallet on a small hanging gong.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.085-2.285 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R03A",
+  "type_code": "R03",
+  "type": "Suck-back riser",
+  "use": "Slow suck-in. Use very low or very loud.",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "16-inch-crash-cymbal-reversed",
+  "description": "16-inch crash cymbal, reversed.",
+  "file": "R_RISERS-AND-HITS/R03_Suck-back-riser/R03A_16-inch-crash-cymbal-reversed.wav",
+  "duration_s": 3.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2311",
+   "title": "Cymbale 16\" #1",
+   "url": "https://bigsoundbank.com/cymbale-16-1-s2311.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a 40cm (16\") cymbal, struck with a wooden drumstick. This is a Medium Thin Crash cymbal by Avedis Zildjian.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-3.0 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R03B",
+  "type_code": "R03",
+  "type": "Suck-back riser",
+  "use": "Slow suck-in. Use very low or very loud.",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "20-inch-ride-cymbal-reversed",
+  "description": "20-inch ride cymbal, reversed.",
+  "file": "R_RISERS-AND-HITS/R03_Suck-back-riser/R03B_20-inch-ride-cymbal-reversed.wav",
+  "duration_s": 3.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "2323",
+   "title": "Cymbale Ride 20\" #1",
+   "url": "https://bigsoundbank.com/cymbale-ride-20-1-s2323.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a 51cm (20\") cymbal, struck with a wooden drumstick. This is a Mini Cup Ride cymbal by Avedis Zildjian.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.0-3.0 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R03C",
+  "type_code": "R03",
+  "type": "Suck-back riser",
+  "use": "Slow suck-in. Use very low or very loud.",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "gong-strong-hit-reversed",
+  "description": "Gong, strong hit, reversed.",
+  "file": "R_RISERS-AND-HITS/R03_Suck-back-riser/R03C_gong-strong-hit-reversed.wav",
+  "duration_s": 3.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1483",
+   "title": "Gong, strong #1",
+   "url": "https://bigsoundbank.com/gong-strong-1-s1483.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A strong shock of mallet on a small hanging gong.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.125-3.125 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R03D",
+  "type_code": "R03",
+  "type": "Suck-back riser",
+  "use": "Slow suck-in. Use very low or very loud.",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "gong-very-strong-hit-reversed",
+  "description": "Gong, very strong hit, reversed.",
+  "file": "R_RISERS-AND-HITS/R03_Suck-back-riser/R03D_gong-very-strong-hit-reversed.wav",
+  "duration_s": 3.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1485",
+   "title": "Gong, very strong",
+   "url": "https://bigsoundbank.com/gong-very-strong-s1485.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "A very strong shock of mallet on a small hanging gong.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.08-3.08 s of the original",
+   "reversed",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R04A",
+  "type_code": "R04",
+  "type": "Suspense build",
+  "use": "Tension, sparingly.",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "slow-heartbeat",
+  "description": "Slow heartbeat.",
+  "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04A_slow-heartbeat.wav",
+  "duration_s": 2.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1929",
+   "title": "Heart Beat #4",
+   "url": "https://bigsoundbank.com/heart-beat-4-s1929.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Slow beating heart.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.06-2.06 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R04B",
+  "type_code": "R04",
+  "type": "Suspense build",
+  "use": "Tension, sparingly.",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "single-heartbeat-dry",
+  "description": "Single heartbeat, dry.",
+  "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+  "duration_s": 0.695,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0243",
+   "title": "Heartbeat #1",
+   "url": "https://bigsoundbank.com/heartbeat-1-s0243.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "One heartbeat, acute and very dynamic, very dry. Learn how to make the sound effects of a heartbeat: https://www.libertivi.com/lelabodubruiteur_100",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.04-0.735 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R04C",
+  "type_code": "R04",
+  "type": "Suspense build",
+  "use": "Tension, sparingly.",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "single-heartbeat",
+  "description": "Single heartbeat.",
+  "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04C_single-heartbeat.wav",
+  "duration_s": 0.52,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0244",
+   "title": "Heartbeat #2",
+   "url": "https://bigsoundbank.com/heartbeat-2-s0244.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "One heartbeat. Make the sound effects of a heartbeat: https://www.libertivi.com/lelabodubruiteur_100",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.03-0.55 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R04D",
+  "type_code": "R04",
+  "type": "Suspense build",
+  "use": "Tension, sparingly.",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "grandfather-clock-pendulum",
+  "description": "Grandfather clock pendulum.",
+  "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04D_grandfather-clock-pendulum.wav",
+  "duration_s": 2.0,
+  "lock": "onset (series: each hit is an element)",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1567",
+   "title": "Grandfather clock, ticking",
+   "url": "https://bigsoundbank.com/grandfather-clock-ticking-s1567.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Noise of the pendulum of a grandfather clock. This sound is part of the \" Museum of Lost Sounds \".",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 16.96-18.96 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R05A",
+  "type_code": "R05",
+  "type": "Impact hit",
+  "use": "Under a riser, to land it.",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "door-slam",
+  "description": "Door slam.",
+  "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05A_door-slam.wav",
+  "duration_s": 2.0,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0103",
+   "title": "Door Slamming #1",
+   "url": "https://bigsoundbank.com/door-slamming-s0103.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Door slamming.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 1.935-3.935 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R05B",
+  "type_code": "R05",
+  "type": "Impact hit",
+  "use": "Under a riser, to land it.",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "interior-door-slammed-by-a-draft",
+  "description": "Interior door slammed by a draft.",
+  "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05B_interior-door-slammed-by-a-draft.wav",
+  "duration_s": 0.36,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1501",
+   "title": "Door Slamming #4",
+   "url": "https://bigsoundbank.com/door-slamming-4-s1501.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Interior door slamming with a draft.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.145-0.505 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R05C",
+  "type_code": "R05",
+  "type": "Impact hit",
+  "use": "Under a riser, to land it.",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "door-slam-second-door",
+  "description": "Door slam, second door.",
+  "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05C_door-slam-second-door.wav",
+  "duration_s": 0.635,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "0223",
+   "title": "Door Slamming #2",
+   "url": "https://bigsoundbank.com/door-slamming-2-s0223.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Door slamming.",
+   "format": "mp3"
+  },
+  "processing": [
+   "trimmed 0.925-1.56 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R05D",
+  "type_code": "R05",
+  "type": "Impact hit",
+  "use": "Under a riser, to land it.",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "heavy-soft-thud",
+  "description": "Heavy soft thud.",
+  "file": "R_RISERS-AND-HITS/R05_Impact-hit/R05D_heavy-soft-thud.wav",
+  "duration_s": 0.25,
+  "lock": "peak",
+  "source": {
+   "site": "Kenney",
+   "pack": "impact-sounds",
+   "file": "impactSoft_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-0.25 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R06A",
+  "type_code": "R06",
+  "type": "Sci-fi hit",
+  "use": "Between scenes (natural stand-in: metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "A",
+  "slug": "hammer-on-anvil",
+  "description": "Hammer on anvil.",
+  "file": "R_RISERS-AND-HITS/R06_Sci-fi-hit/R06A_hammer-on-anvil.wav",
+  "duration_s": 2.5,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "3589",
+   "title": "Anvil #1",
+   "url": "https://bigsoundbank.com/anvil-1-s3589.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "The sound of a hammer striking an anvil repeatedly as a blacksmith works the iron. Sound recording using an omnidirectional capsule microphone.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 15.795-18.295 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R06B",
+  "type_code": "R06",
+  "type": "Sci-fi hit",
+  "use": "Between scenes (natural stand-in: metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "B",
+  "slug": "hammer-on-anvil-second-set",
+  "description": "Hammer on anvil, second set.",
+  "file": "R_RISERS-AND-HITS/R06_Sci-fi-hit/R06B_hammer-on-anvil-second-set.wav",
+  "duration_s": 1.505,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "3590",
+   "title": "Anvil #2",
+   "url": "https://bigsoundbank.com/anvil-2-s3590.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Sound of a hammer striking an anvil repeatedly as a blacksmith works the iron. Sound recording using a microphone with a cardioid capsule.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 9.835-11.34 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R06C",
+  "type_code": "R06",
+  "type": "Sci-fi hit",
+  "use": "Between scenes (natural stand-in: metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "C",
+  "slug": "steel-bar-falling-on-a-path",
+  "description": "Steel bar falling on a path.",
+  "file": "R_RISERS-AND-HITS/R06_Sci-fi-hit/R06C_steel-bar-falling-on-a-path.wav",
+  "duration_s": 1.46,
+  "lock": "peak",
+  "source": {
+   "site": "BigSoundBank",
+   "id": "1774",
+   "title": "Falling sheet steel bar #4",
+   "url": "https://bigsoundbank.com/falling-sheet-steel-bar-4-s1774.html",
+   "author": "Joseph Sardin",
+   "license": "CC0 1.0",
+   "page_says": "CC0",
+   "recorded_as": "Steel bar made of sheet metal, which falls to the ground on a path.",
+   "format": "flac"
+  },
+  "processing": [
+   "trimmed 0.1-1.56 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ },
+ {
+  "code": "R06D",
+  "type_code": "R06",
+  "type": "Sci-fi hit",
+  "use": "Between scenes (natural stand-in: metal strikes).",
+  "category": "Risers And Hits",
+  "letter": "D",
+  "slug": "heavy-bell-impact",
+  "description": "Heavy bell impact.",
+  "file": "R_RISERS-AND-HITS/R06_Sci-fi-hit/R06D_heavy-bell-impact.wav",
+  "duration_s": 1.115,
+  "lock": "peak",
+  "source": {
+   "site": "Kenney",
+   "pack": "impact-sounds",
+   "file": "impactBell_heavy_000.ogg",
+   "url": "https://kenney.nl/assets/impact-sounds",
+   "author": "Kenney (kenney.nl)",
+   "license": "CC0 1.0"
+  },
+  "processing": [
+   "trimmed 0.0-1.115 s of the original",
+   "short fades",
+   "loudness matched"
+  ]
+ }
+]

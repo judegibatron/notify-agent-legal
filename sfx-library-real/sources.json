@@ -1,0 +1,1265 @@
+{
+ "_note": "Every take is one real recording, CC0. bsb:<id> = BigSoundBank (Joseph Sardin), kenney:<path> = Kenney CC0 foley packs. Modes: event = cleanest single take; window = the strongest stretch of a continuous recording; rise = a stretch that builds to its loudest point at the end; series = a run of repeated hits; *_rev = the same, reversed (suck-back and metallic rises only). No synthesis, no layering.",
+ "types": {
+  "W01": {
+   "name": "Hollow whoosh",
+   "use": "Standard slides and pans.",
+   "takes": [
+    [
+     "bsb:1800",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "metal tube swing"
+    ],
+    [
+     "bsb:1801",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "metal tube swing, second take"
+    ],
+    [
+     "bsb:1795",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "long rope swing"
+    ],
+    [
+     "bsb:1796",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "long rope swing, second take"
+    ]
+   ]
+  },
+  "W02": {
+   "name": "Deep voice whoosh",
+   "use": "Default for most animations (heavier, deeper swings).",
+   "takes": [
+    [
+     "bsb:1799",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "wooden sheet swing"
+    ],
+    [
+     "bsb:1802",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "wooden sheet swing, second take"
+    ],
+    [
+     "kenney:rpg-audio/Audio/cloth1.ogg",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "heavy cloth swish"
+    ],
+    [
+     "bsb:1818",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "rope sliding"
+    ]
+   ]
+  },
+  "W03": {
+   "name": "Futuristic whoosh",
+   "use": "Textured, edgy slides (natural stand-in: blades and whips).",
+   "takes": [
+    [
+     "bsb:0572",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "sword cutting the air"
+    ],
+    [
+     "bsb:2949",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "whip crack"
+    ],
+    [
+     "bsb:0127",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "sword cut"
+    ],
+    [
+     "kenney:rpg-audio/Audio/drawKnife1.ogg",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "knife drawn"
+    ]
+   ]
+  },
+  "W04": {
+   "name": "Organic wind whoosh",
+   "use": "Slow, methodical moves and drifts.",
+   "takes": [
+    [
+     "bsb:0595",
+     "window",
+     [
+      1.6,
+      1.6
+     ],
+     "foley wind"
+    ],
+    [
+     "bsb:0908",
+     "window",
+     [
+      1.6,
+      1.6
+     ],
+     "wind in tall grass"
+    ],
+    [
+     "bsb:0147",
+     "window",
+     [
+      1.6,
+      1.6
+     ],
+     "wind whistling through a window"
+    ],
+    [
+     "bsb:0153",
+     "window",
+     [
+      1.6,
+      1.6
+     ],
+     "strong wind, indoors"
+    ]
+   ]
+  },
+  "W05": {
+   "name": "Short whoosh",
+   "use": "Very quick, small moves.",
+   "takes": [
+    [
+     "bsb:1797",
+     "event",
+     [
+      0.12,
+      0.7
+     ],
+     "wooden stick swing"
+    ],
+    [
+     "bsb:1798",
+     "event",
+     [
+      0.12,
+      0.7
+     ],
+     "bamboo stick swing"
+    ],
+    [
+     "bsb:0128",
+     "event",
+     [
+      0.12,
+      0.7
+     ],
+     "sword through the air"
+    ],
+    [
+     "bsb:0573",
+     "event",
+     [
+      0.12,
+      0.7
+     ],
+     "arrow through the air"
+    ]
+   ]
+  },
+  "W06": {
+   "name": "Generic long whoosh",
+   "use": "Slow build into a quick transition.",
+   "takes": [
+    [
+     "bsb:0146",
+     "rise",
+     [
+      2.0,
+      2.0
+     ],
+     "strong wind gust building"
+    ],
+    [
+     "bsb:0154",
+     "rise",
+     [
+      2.0,
+      2.0
+     ],
+     "strong wind gust building"
+    ],
+    [
+     "bsb:1632",
+     "rise",
+     [
+      2.0,
+      2.0
+     ],
+     "flag building in the wind"
+    ],
+    [
+     "bsb:0163",
+     "rise",
+     [
+      2.0,
+      2.0
+     ],
+     "straw broom sweep"
+    ]
+   ]
+  },
+  "W07": {
+   "name": "Synthetic whoosh",
+   "use": "Scene-to-scene transitions (natural stand-in: sport swings).",
+   "takes": [
+    [
+     "bsb:0455",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "golf swing, wooden club"
+    ],
+    [
+     "bsb:0537",
+     "event",
+     [
+      0.2,
+      1.2
+     ],
+     "badminton racket"
+    ],
+    [
+     "bsb:1787",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "nylon flag snap"
+    ],
+    [
+     "bsb:1789",
+     "event",
+     [
+      0.3,
+      1.5
+     ],
+     "nylon flag snap, second take"
+    ]
+   ]
+  },
+  "W08": {
+   "name": "Transition spacey whoosh",
+   "use": "Airy scene transitions.",
+   "takes": [
+    [
+     "bsb:0155",
+     "window",
+     [
+      2.0,
+      2.0
+     ],
+     "wind whistling in a chimney"
+    ],
+    [
+     "bsb:1161",
+     "window",
+     [
+      2.0,
+      2.0
+     ],
+     "chimney pipe cooling"
+    ],
+    [
+     "bsb:1486",
+     "window",
+     [
+      1.5,
+      1.5
+     ],
+     "air leak"
+    ],
+    [
+     "bsb:2687",
+     "window",
+     [
+      2.0,
+      2.0
+     ],
+     "chimes in the wind"
+    ]
+   ]
+  },
+  "W09": {
+   "name": "Water dropper",
+   "use": "Light, liquid scene switches.",
+   "takes": [
+    [
+     "bsb:1384",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "water drop"
+    ],
+    [
+     "bsb:1386",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "water drop, second set"
+    ],
+    [
+     "bsb:0183",
+     "event",
+     [
+      0.1,
+      1.0
+     ],
+     "water bubble (straw in a tub)"
+    ],
+    [
+     "bsb:1074",
+     "event",
+     [
+      0.05,
+      0.6
+     ],
+     "bubble burst (mouth)"
+    ]
+   ]
+  },
+  "W10": {
+   "name": "Classy airy whoosh",
+   "use": "Large, weighty moves.",
+   "takes": [
+    [
+     "bsb:1788",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "nylon flag shake"
+    ],
+    [
+     "bsb:1790",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "nylon flag shake, second take"
+    ],
+    [
+     "bsb:1792",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "nylon flag shake, third take"
+    ],
+    [
+     "bsb:0013",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "cloth movement"
+    ]
+   ]
+  },
+  "T01": {
+   "name": "Pop",
+   "use": "Text pops up.",
+   "takes": [
+    [
+     "bsb:0211",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "champagne cork"
+    ],
+    [
+     "bsb:0648",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "champagne cork, second bottle"
+    ],
+    [
+     "bsb:0551",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "balloon burst"
+    ],
+    [
+     "bsb:0462",
+     "event",
+     [
+      0.03,
+      0.6
+     ],
+     "bubble wrap pop"
+    ]
+   ]
+  },
+  "T02": {
+   "name": "UI click",
+   "use": "UI element pops up.",
+   "takes": [
+    [
+     "bsb:1735",
+     "event",
+     [
+      0.02,
+      0.5
+     ],
+     "mouse click"
+    ],
+    [
+     "bsb:1742",
+     "event",
+     [
+      0.02,
+      0.5
+     ],
+     "Apple Magic Mouse click"
+    ],
+    [
+     "bsb:1738",
+     "event",
+     [
+      0.02,
+      0.5
+     ],
+     "MacBook Pro trackpad click"
+    ],
+    [
+     "bsb:0613",
+     "event",
+     [
+      0.02,
+      0.5
+     ],
+     "ballpoint pen click"
+    ]
+   ]
+  },
+  "T03": {
+   "name": "Sci-fi click",
+   "use": "Something changes inside an animation (natural stand-in: switches).",
+   "takes": [
+    [
+     "bsb:0026",
+     "event",
+     [
+      0.02,
+      0.6
+     ],
+     "home light switch"
+    ],
+    [
+     "bsb:0036",
+     "event",
+     [
+      0.02,
+      0.6
+     ],
+     "desk lamp switch"
+    ],
+    [
+     "bsb:0321",
+     "event",
+     [
+      0.02,
+      0.6
+     ],
+     "switch click"
+    ],
+    [
+     "bsb:0540",
+     "event",
+     [
+      0.02,
+      0.6
+     ],
+     "old light switch"
+    ]
+   ]
+  },
+  "T04": {
+   "name": "Sci-fi impact",
+   "use": "A new UI or object is revealed (natural stand-in: hits).",
+   "takes": [
+    [
+     "bsb:2460",
+     "event",
+     [
+      0.1,
+      1.2
+     ],
+     "punch"
+    ],
+    [
+     "bsb:2452",
+     "event",
+     [
+      0.1,
+      1.5
+     ],
+     "body fall on tiles"
+    ],
+    [
+     "kenney:impact-sounds/Audio/impactPunch_heavy_000.ogg",
+     "event",
+     [
+      0.1,
+      1.2
+     ],
+     "heavy punch"
+    ],
+    [
+     "kenney:impact-sounds/Audio/impactPlate_heavy_000.ogg",
+     "event",
+     [
+      0.1,
+      1.5
+     ],
+     "heavy metal plate hit"
+    ]
+   ]
+  },
+  "T05": {
+   "name": "Digital camera click",
+   "use": "Clip-to-clip cut or flash.",
+   "takes": [
+    [
+     "bsb:2394",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "Nikon D70s shutter"
+    ],
+    [
+     "bsb:2395",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "Nikon D70s shutter, second take"
+    ],
+    [
+     "bsb:0307",
+     "event",
+     [
+      0.05,
+      1.0
+     ],
+     "reflex camera shutter"
+    ],
+    [
+     "bsb:3022",
+     "event",
+     [
+      0.05,
+      1.2
+     ],
+     "old flash camera"
+    ]
+   ]
+  },
+  "T06": {
+   "name": "Analog button / cardboard",
+   "use": "Soft, satisfying checks and toggles.",
+   "takes": [
+    [
+     "kenney:rpg-audio/Audio/bookPlace1.ogg",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "book set down"
+    ],
+    [
+     "kenney:rpg-audio/Audio/bookClose.ogg",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "book closing"
+    ],
+    [
+     "kenney:rpg-audio/Audio/dropLeather.ogg",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "leather drop"
+    ],
+    [
+     "bsb:1410",
+     "event",
+     [
+      0.05,
+      0.8
+     ],
+     "book closing, hardback"
+    ]
+   ]
+  },
+  "T07": {
+   "name": "Mechanical click",
+   "use": "Mechanical pop-ups.",
+   "takes": [
+    [
+     "bsb:0049",
+     "event",
+     [
+      0.03,
+      1.0
+     ],
+     "lighter"
+    ],
+    [
+     "bsb:0037",
+     "event",
+     [
+      0.03,
+      1.0
+     ],
+     "door lock with key"
+    ],
+    [
+     "kenney:rpg-audio/Audio/metalClick.ogg",
+     "event",
+     [
+      0.03,
+      1.0
+     ],
+     "metal click"
+    ],
+    [
+     "kenney:rpg-audio/Audio/metalLatch.ogg",
+     "event",
+     [
+      0.03,
+      1.0
+     ],
+     "metal latch"
+    ]
+   ]
+  },
+  "T08": {
+   "name": "Gears / tiny gearwheel",
+   "use": "Letter-by-letter text.",
+   "takes": [
+    [
+     "bsb:2816",
+     "series",
+     [
+      1.0,
+      1.0
+     ],
+     "mechanical alarm clock ticking"
+    ],
+    [
+     "bsb:2656",
+     "series",
+     [
+      1.0,
+      1.0
+     ],
+     "small alarm clock ticking"
+    ],
+    [
+     "bsb:2138",
+     "series",
+     [
+      1.0,
+      1.0
+     ],
+     "stopwatch ticking"
+    ],
+    [
+     "bsb:0007",
+     "event",
+     [
+      0.03,
+      0.5
+     ],
+     "single clock tick"
+    ]
+   ]
+  },
+  "T09": {
+   "name": "Complex mechanism gizmo",
+   "use": "Several assets popping in sequence.",
+   "takes": [
+    [
+     "bsb:2545",
+     "event",
+     [
+      0.2,
+      1.5
+     ],
+     "1903 car starting crank"
+    ],
+    [
+     "bsb:0799",
+     "series",
+     [
+      1.0,
+      1.0
+     ],
+     "toy fishing reel"
+    ],
+    [
+     "kenney:casino-audio/Audio/chips-stack-1.ogg",
+     "event",
+     [
+      0.1,
+      1.2
+     ],
+     "poker chips stacking"
+    ],
+    [
+     "kenney:casino-audio/Audio/dice-throw-1.ogg",
+     "event",
+     [
+      0.1,
+      1.5
+     ],
+     "dice throw"
+    ]
+   ]
+  },
+  "T10": {
+   "name": "Keyboard writing",
+   "use": "Typing on screen.",
+   "takes": [
+    [
+     "bsb:1734",
+     "series",
+     [
+      1.2,
+      1.2
+     ],
+     "quick computer typing"
+    ],
+    [
+     "bsb:1733",
+     "series",
+     [
+      1.2,
+      1.2
+     ],
+     "slow computer typing"
+    ],
+    [
+     "bsb:2841",
+     "series",
+     [
+      1.2,
+      1.2
+     ],
+     "Hermes typewriter"
+    ],
+    [
+     "bsb:2842",
+     "event",
+     [
+      0.03,
+      0.6
+     ],
+     "single typewriter key"
+    ]
+   ]
+  },
+  "T11": {
+   "name": "Activate energy",
+   "use": "Entry into a new animation (natural stand-in: electricity).",
+   "takes": [
+    [
+     "bsb:0134",
+     "window",
+     [
+      1.0,
+      1.0
+     ],
+     "electric shock buzz"
+    ],
+    [
+     "bsb:2118",
+     "window",
+     [
+      1.0,
+      1.0
+     ],
+     "neon or transformer hum"
+    ],
+    [
+     "bsb:1092",
+     "event",
+     [
+      0.1,
+      1.2
+     ],
+     "circuit breaker tripping"
+    ],
+    [
+     "bsb:3442",
+     "event",
+     [
+      0.1,
+      1.2
+     ],
+     "electric door strike"
+    ]
+   ]
+  },
+  "T12": {
+   "name": "Success reward",
+   "use": "A conclusion is reached.",
+   "takes": [
+    [
+     "bsb:2531",
+     "event",
+     [
+      0.4,
+      2.5
+     ],
+     "hotel counter bell"
+    ],
+    [
+     "bsb:0292",
+     "event",
+     [
+      0.4,
+      2.5
+     ],
+     "small bell"
+    ],
+    [
+     "bsb:2079",
+     "event",
+     [
+      0.4,
+      2.5
+     ],
+     "dream chimes"
+    ],
+    [
+     "bsb:1328",
+     "event",
+     [
+      0.2,
+      2.0
+     ],
+     "two wine glasses clinking"
+    ]
+   ]
+  },
+  "T13": {
+   "name": "Big reveal (choir)",
+   "use": "A big reveal (natural stand-in: bowls, chimes, cathedral).",
+   "takes": [
+    [
+     "bsb:1110",
+     "event",
+     [
+      1.0,
+      3.0
+     ],
+     "Tibetan bowl struck"
+    ],
+    [
+     "bsb:2553",
+     "event",
+     [
+      1.0,
+      3.0
+     ],
+     "Tibetan bowl struck, second bowl"
+    ],
+    [
+     "bsb:2086",
+     "event",
+     [
+      0.8,
+      3.0
+     ],
+     "dream chimes cluster"
+    ],
+    [
+     "bsb:0598",
+     "window",
+     [
+      3.0,
+      3.0
+     ],
+     "cathedral voice and organ"
+    ]
+   ]
+  },
+  "T14": {
+   "name": "Alarm buzzer",
+   "use": "Low-volume tension.",
+   "takes": [
+    [
+     "bsb:1583",
+     "event",
+     [
+      0.2,
+      1.2
+     ],
+     "12 V buzzer"
+    ],
+    [
+     "bsb:1584",
+     "event",
+     [
+      0.2,
+      1.2
+     ],
+     "12 V buzzer, second take"
+    ],
+    [
+     "bsb:0593",
+     "window",
+     [
+      1.0,
+      1.0
+     ],
+     "walkie-talkie buzzer on a wooden table"
+    ],
+    [
+     "bsb:0172",
+     "window",
+     [
+      1.2,
+      1.2
+     ],
+     "semi-mechanical alarm"
+    ]
+   ]
+  },
+  "R01": {
+   "name": "Sharp bass riser",
+   "use": "~5 s after the hook (natural stand-in: engines building, thunder).",
+   "takes": [
+    [
+     "bsb:1147",
+     "rise",
+     [
+      1.8,
+      1.8
+     ],
+     "diesel truck accelerating"
+    ],
+    [
+     "bsb:0600",
+     "rise",
+     [
+      1.8,
+      1.8
+     ],
+     "Aston Martin accelerating"
+    ],
+    [
+     "bsb:0603",
+     "rise",
+     [
+      1.8,
+      1.8
+     ],
+     "75 cc motorcycle accelerating"
+    ],
+    [
+     "bsb:3114",
+     "rise",
+     [
+      1.8,
+      1.8
+     ],
+     "thunder rolling in"
+    ]
+   ]
+  },
+  "R02": {
+   "name": "Metallic riser",
+   "use": "Segment builds (singing bowl, and reversed real metal strikes).",
+   "takes": [
+    [
+     "bsb:1109",
+     "rise",
+     [
+      1.8,
+      1.8
+     ],
+     "Tibetan bowl rubbed until it sings"
+    ],
+    [
+     "bsb:1110",
+     "event_rev",
+     [
+      1.0,
+      2.2
+     ],
+     "Tibetan bowl strike, reversed"
+    ],
+    [
+     "bsb:2274",
+     "event_rev",
+     [
+      0.8,
+      2.0
+     ],
+     "finger cymbals, reversed"
+    ],
+    [
+     "bsb:1482",
+     "event_rev",
+     [
+      1.0,
+      2.2
+     ],
+     "small gong, reversed"
+    ]
+   ]
+  },
+  "R03": {
+   "name": "Suck-back riser",
+   "use": "Slow suck-in. Use very low or very loud.",
+   "takes": [
+    [
+     "bsb:2311",
+     "event_rev",
+     [
+      1.2,
+      3.0
+     ],
+     "16-inch crash cymbal, reversed"
+    ],
+    [
+     "bsb:2323",
+     "event_rev",
+     [
+      1.2,
+      3.0
+     ],
+     "20-inch ride cymbal, reversed"
+    ],
+    [
+     "bsb:1483",
+     "event_rev",
+     [
+      1.2,
+      3.0
+     ],
+     "gong, strong hit, reversed"
+    ],
+    [
+     "bsb:1485",
+     "event_rev",
+     [
+      1.2,
+      3.0
+     ],
+     "gong, very strong hit, reversed"
+    ]
+   ]
+  },
+  "R04": {
+   "name": "Suspense build",
+   "use": "Tension, sparingly.",
+   "takes": [
+    [
+     "bsb:1929",
+     "series",
+     [
+      2.0,
+      2.0
+     ],
+     "slow heartbeat"
+    ],
+    [
+     "bsb:0243",
+     "event",
+     [
+      0.2,
+      1.0
+     ],
+     "single heartbeat, dry"
+    ],
+    [
+     "bsb:0244",
+     "event",
+     [
+      0.2,
+      1.0
+     ],
+     "single heartbeat"
+    ],
+    [
+     "bsb:1567",
+     "series",
+     [
+      2.0,
+      2.0
+     ],
+     "grandfather clock pendulum"
+    ]
+   ]
+  },
+  "R05": {
+   "name": "Impact hit",
+   "use": "Under a riser, to land it.",
+   "takes": [
+    [
+     "bsb:0103",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "door slam"
+    ],
+    [
+     "bsb:1501",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "interior door slammed by a draft"
+    ],
+    [
+     "bsb:0223",
+     "event",
+     [
+      0.3,
+      2.0
+     ],
+     "door slam, second door"
+    ],
+    [
+     "kenney:impact-sounds/Audio/impactSoft_heavy_000.ogg",
+     "event",
+     [
+      0.25,
+      1.5
+     ],
+     "heavy soft thud"
+    ]
+   ]
+  },
+  "R06": {
+   "name": "Sci-fi hit",
+   "use": "Between scenes (natural stand-in: metal strikes).",
+   "takes": [
+    [
+     "bsb:3589",
+     "event",
+     [
+      0.3,
+      2.5
+     ],
+     "hammer on anvil"
+    ],
+    [
+     "bsb:3590",
+     "event",
+     [
+      0.3,
+      2.5
+     ],
+     "hammer on anvil, second set"
+    ],
+    [
+     "bsb:1774",
+     "event",
+     [
+      0.3,
+      2.5
+     ],
+     "steel bar falling on a path"
+    ],
+    [
+     "kenney:impact-sounds/Audio/impactBell_heavy_000.ogg",
+     "event",
+     [
+      0.5,
+      2.0
+     ],
+     "heavy bell impact"
+    ]
+   ]
+  }
+ }
+}
