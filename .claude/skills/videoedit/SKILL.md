@@ -17,6 +17,8 @@ Part A is how Joseph sound designs (taste, library, rules). Part B is how you op
 
 **Sound emphasizes motion.** Every sound exists to emphasize something the viewer can see: a movement, a pop, a change, a transition, or a build toward the next moment. If nothing is happening on screen, nothing happens in the sound.
 
+**Restraint beats coverage.** A sound has to earn its place: it lands the point being said, marks the one big transition, or punctuates the payoff. Routine motion (titles settling, rows sliding in, small decorations, every hard cut) usually stays silent. The user rejected a 29-cue pass on a 20 s ad as "way too many". The approved direction was about 10 cues, roughly one every two seconds at most. The "every movement" and "at least 2 sharp bass + 2 metallic risers" rules below are ceilings for long edits, not quotas. Use a riser only when a fitting build sound exists; a literal sound (a car engine) used as a riser reads as a car, so skip the build instead. Before handing off, list each cue with its one-line purpose and cut any whose purpose is "something moved".
+
 **Three jobs, three families.** Every sound in the library does exactly one job:
 - **Whooshes → movement** (slides, pans, zooms, camera moves, scene transitions)
 - **Textures → things that happen without sliding** (pops, clicks, reveals, write-outs, UI changes)

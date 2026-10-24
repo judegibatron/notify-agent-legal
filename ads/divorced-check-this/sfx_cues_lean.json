@@ -1,0 +1,96 @@
+{
+ "_note": "Lean cue sheet: only sounds with a purpose (user direction 2026-10-24). No risers. Real CC0 recordings, user picks.",
+ "library_root": "../../sfx-library-real",
+ "cues": [
+  {
+   "id": "W02",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W05_Short-whoosh/W05D_arrow-through-the-air.wav",
+   "code": "W05D",
+   "sync": 107,
+   "db": -12,
+   "why": "snap zoom on 'ex's record'"
+  },
+  {
+   "id": "W03",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W01_Hollow-whoosh/W01B_metal-tube-swing-second-take.wav",
+   "code": "W01B",
+   "sync": 136,
+   "db": -12,
+   "why": "benefit cards rise (one whoosh for both)"
+  },
+  {
+   "id": "W05",
+   "track": "WHOOSHES",
+   "file": "W_WHOOSHES/W02_Deep-voice-whoosh/W02A_wooden-sheet-swing.wav",
+   "code": "W02A",
+   "sync": 224,
+   "db": -10,
+   "why": "the one big transition: wipe into the checklist"
+  },
+  {
+   "id": "T02",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T01_Pop/T01A_champagne-cork.wav",
+   "code": "T01A",
+   "sync": 173,
+   "db": -6,
+   "why": "'No change' badge: lands 'it won't lower their check'"
+  },
+  {
+   "id": "T07",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 289,
+   "db": -6,
+   "why": "toggle 1 flips"
+  },
+  {
+   "id": "T08",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 342,
+   "db": -6,
+   "why": "toggle 2 flips"
+  },
+  {
+   "id": "T09",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T03_Sci-fi-click/T03C_switch-click.wav",
+   "code": "T03C",
+   "sync": 412,
+   "db": -6,
+   "why": "toggle 3 flips"
+  },
+  {
+   "id": "T10",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T12_Success-reward/T12A_hotel-counter-bell.wav",
+   "code": "T12A",
+   "sync": 479,
+   "db": -7,
+   "why": "green check: the payoff"
+  },
+  {
+   "id": "T12",
+   "track": "TEXTURES",
+   "file": "T_TEXTURES/T02_UI-click/T02A_mouse-click.wav",
+   "code": "T02A",
+   "sync": 518,
+   "db": -6,
+   "why": "CTA button appears"
+  },
+  {
+   "id": "H01",
+   "track": "HITS",
+   "file": "R_RISERS-AND-HITS/R04_Suspense-build/R04B_single-heartbeat-dry.wav",
+   "code": "R04B",
+   "sync": 3,
+   "db": -8,
+   "why": "hook impact as the rings icon lands on 'Divorced?'"
+  }
+ ]
+}
